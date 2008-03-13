@@ -1,0 +1,2342 @@
+<?xml version="1.0" ?>
+<rdf:RDF
+xml:lang="en"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns="http://xmlns.com/foaf/0.1/"
+xmlns:foaf="http://xmlns.com/foaf/0.1/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:lang="http://purl.org/net/inkel/rdf/schemas/lang/1.1#"
+xmlns:rel="http://purl.org/vocab/relationship/"
+xmlns:xi="http://www.w3.org/2001/XInclude"
+xmlns:gen="http://genealogy.lindenb.org/"
+xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+>
+
+
+<foaf:Person rdf:ID="LindenbaumPierre">
+	<foaf:name>Pierre Lindenbaum</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:givenname>Pierre</foaf:givenname>
+	<foaf:family_name>Lindenbaum</foaf:family_name>
+	<foaf:nick>Pierrot</foaf:nick>
+	<foaf:mbox>lindenb@integragen.com</foaf:mbox>
+	<foaf:homepage rdf:resource="http://www.integragen.com/"/>
+	<foaf:img rdf:resource="img/iconLindenbaumPierre.png"/>
+	<foaf:birthday>08-02</foaf:birthday>
+	<lang:masters>fr</lang:masters>
+	<lang:masters>en</lang:masters>
+	<foaf:based_near>
+	<geo:Point geo:lat="48.616796" geo:long="2.451410" />
+	</foaf:based_near>
+	<rel:friendOf rdf:resource="#ElisabethBouhadana"/>
+	<foaf:knows rdf:resource="#Delmas_Bernard" />
+	<foaf:knows rdf:resource="#Brooks_Peter" />
+	<foaf:knows rdf:resource="#Demange_N" />
+	<foaf:knows rdf:resource="#Rousseau_Francis" />
+	<foaf:knows rdf:resource="#Gut_I G" />
+	<foaf:knows rdf:resource="#Foglio_M" />
+	<foaf:knows rdf:resource="#Hager_J" />
+	<foaf:knows rdf:resource="#Philippi_Anne" />
+	<foaf:knows rdf:resource="#Vionnet_N" />
+	<foaf:knows rdf:resource="#Tores_F" />
+	<foaf:knows rdf:resource="#Bercovici_Nadège" />
+	<foaf:knows rdf:resource="#Arrieumerlou_Cécile" />
+	<foaf:knows rdf:resource="#Boisgard_Raphaël" />
+	<foaf:knows rdf:resource="#Lavialle_Françoise" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#Riffault_S" />
+	<foaf:knows rdf:resource="#Eléouët_J F" />
+	<foaf:knows rdf:resource="#Eléouët_Jean-François" />
+	<foaf:knows rdf:resource="#Guérin-Danan_C" />
+	<foaf:knows rdf:resource="#Béarzotti_Monique" />
+	<foaf:knows rdf:resource="#Eleouet_J F" />
+	<foaf:knows rdf:resource="#Berois_Mabel" />
+	<foaf:knows rdf:resource="#Petitpas_Isabelle" />
+	<foaf:knows rdf:resource="#Vilette_Didier" />
+	<foaf:knows rdf:resource="#Piron_Maria" />
+	<foaf:knows rdf:resource="#Nejmeddine_M" />
+	<foaf:knows rdf:resource="#Bremont_M" />
+	<foaf:knows rdf:resource="#Archer_Fabienne" />
+	<foaf:knows rdf:resource="#Duarte_Mariela" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+	<foaf:knows rdf:resource="#Charley_Bernard" />
+	<foaf:knows rdf:resource="#Guérin-Danan_C" />
+	<foaf:knows rdf:resource="#Vende_Patrice" />
+	<foaf:knows rdf:resource="#Castagné_N" />
+	<foaf:knows rdf:resource="#Brémont_M" />
+	<foaf:knows rdf:resource="#Charpilienne_A" />
+	<foaf:knows rdf:resource="#Gajardo_R" />
+	
+</foaf:Person>
+
+<foaf:Person rdf:ID="ElisabethBouhadana">
+	<foaf:img rdf:resource="img/iconElisabethBouhadana.png"/>
+	<foaf:name>Elisabeth Bouhadana</foaf:name>
+	<foaf:givenname>Elisabeth</foaf:givenname>
+	<foaf:family_name>Bouhadana</foaf:family_name>
+	<foaf:nick>Babeth</foaf:nick>
+</foaf:Person>
+
+<foaf:Person rdf:ID="MessageotFabienne">
+	<foaf:name>Fabienne Messageot</foaf:name>
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#Boisgard_Raphaël" />
+</foaf:Person>
+
+<foaf:Person rdf:ID="ForlotEmmanuelle">
+	<foaf:name>Forlot Emmanuelle</foaf:name>
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#Boisgard_Raphaël" />
+</foaf:Person>
+
+<foaf:Group rdf:ID="Orsay">
+<foaf:name>Orsay University 1994</foaf:name>
+<foaf:member rdf:resource="#LindenbaumPierre" />
+<foaf:member rdf:resource="#Arrieumerlou_Cécile" />
+<foaf:member rdf:resource="#Bercovici_Nadège" />
+<foaf:member rdf:resource="#Boisgard_Raphaël" />
+<foaf:member rdf:resource="#ElisabethBouhadana"/>
+</foaf:Group>
+
+<foaf:Group rdf:ID="Integragen">
+<foaf:name>Integragen S.A.</foaf:name>
+<foaf:img rdf:resource="http://www.integragen.com/img//logo.png"/>
+<dc:description><![CDATA[<font face="Arial,Helvetica">IntegraGen is a <b>pioneer</b> in the field of <b>Personalized Medicine</b>
+ developing and delivering <b>predictive diagnostics</b> for a range of complex diseases.
+Through the discovery and validation of genetic markers using its unique
+genomic analysis technology (GenomeHIP) the Company is providing
+ <b>validated targets</b> to the pharma and biotech industry for therapeutic
+ development and is developing <b>IntegraTest™</b> for use with patients.
+These tests will provide rapid and better diagnosis of disease and will help
+direct the choice of treatment to improve patient health outcomes.</font>]]></dc:description>
+<foaf:member rdf:resource="#LindenbaumPierre" />
+<foaf:member rdf:resource="#Brooks_Peter" />
+<foaf:member rdf:resource="#Rousseau_Francis" />
+<foaf:member rdf:resource="#Hager_J" />
+<foaf:member rdf:resource="#Philippi_Anne" />
+<foaf:member rdf:resource="#Vionnet_N" />
+<foaf:member rdf:resource="#Rousseau_Francis" />
+<foaf:member rdf:resource="#Gesnouin_Philippe" />
+</foaf:Group>
+
+<foaf:Group rdf:ID="laboratory_ID0" >
+	<foaf:name>Virologie Moléculaire et Structurale, Unité Mixte de Recherche, CNRS-INRA, 91198 Gif-sur-Yvette, France.</foaf:name>
+	<foaf:member rdf:resource="#Poncet_Didier" />
+	<foaf:member rdf:resource="#Grosclaude_J" />
+	<foaf:member rdf:resource="#Péry_P" />
+	<foaf:member rdf:resource="#Labbé_M" />
+	<foaf:member rdf:resource="#Laude_Hubert" />
+	<foaf:member rdf:resource="#Petit_Stéphanie" />
+	<foaf:member rdf:resource="#Delmas_Bernard" />
+	<foaf:member rdf:resource="#Bremont_M" />
+	<foaf:member rdf:resource="#Béarzotti_Monique" />
+	<foaf:member rdf:resource="#Biacchesi_Stéphane" />
+	<foaf:member rdf:resource="#Villoing_Stéphane" />
+	<foaf:member rdf:resource="#Benmansour_Abdenour" />
+	<foaf:member rdf:resource="#Riffault_S" />
+	<foaf:member rdf:resource="#La Bonnardière_C" />
+	<foaf:member rdf:resource="#Carrat_C" />
+	<foaf:member rdf:resource="#Charpilienne_A" />
+	<foaf:member rdf:resource="#Lefèvre_François" />
+	<foaf:member rdf:resource="#Boudinot_Pierre" />
+	<foaf:member rdf:resource="#Le Dur_Annick" />
+	<foaf:member rdf:resource="#Moudjou_Mohammed" />
+	<foaf:member rdf:resource="#Duarte_Mariela" />
+	<foaf:member rdf:resource="#Castagné_N" />
+	<foaf:member rdf:resource="#Eléouët_Jean-François" />
+	<foaf:member rdf:resource="#Cohen_Jean" />
+	<foaf:member rdf:resource="#Vitour_Damien" />
+</foaf:Group>
+
+
+
+
+<foaf:Group rdf:ID="CEAOrsay" >
+	<foaf:img rdf:resource="http://www.siam.org/meetings/gs05/images/cea.gif"/>
+	<foaf:name>Service Hospitalier Frédéric Joliot, Département de Recherche Médicale, CEA/DSV, 4 place du Général Leclerc, F-91401 Orsay, France.</foaf:name>
+	<foaf:member rdf:resource="#Boisgard_Raphaël" />
+</foaf:Group>
+
+
+
+
+<foaf:Group rdf:ID="laboratory_ID4" >
+	<foaf:name>IDM (Immuno-Designed Molecules) Research Laboratory, University of Pierre et Marie Curie, Paris, France.</foaf:name>
+	<foaf:member rdf:resource="#Bercovici_Nadège" />
+</foaf:Group>
+
+
+
+
+<foaf:Group rdf:ID="laboratory_ID6" >
+	<foaf:name>Genoscope-Centre National de Séquençage and CNRS UMR-8030, 91000 Evry, France.</foaf:name>
+	<foaf:img rdf:resource="http://www.genoscope.cns.fr/externe/Images/logo_CNS_long.gif" />
+	<foaf:member rdf:resource="#Gyapay_Gabor" />
+	<foaf:member rdf:resource="#Saurin_William" />
+	<foaf:member rdf:resource="#Demange_N" />
+</foaf:Group>
+
+
+
+
+<foaf:Person rdf:ID="Poncet_Didier" >
+	<foaf:name>Poncet Didier</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Poncet</foaf:family_name>
+	<foaf:firstName>Didier</foaf:firstName>
+	<foaf:homepage  rdf:resource="http://www.vms.cnrs-gif.fr/research/vm4.html"/>
+	<foaf:knows rdf:resource="#Aponte_C" />
+	<foaf:knows rdf:resource="#Eléouët_Jean-François" />
+	<foaf:knows rdf:resource="#Baudoux_P" />
+	<foaf:knows rdf:resource="#Patton_John T" />
+	<foaf:knows rdf:resource="#Charley_Bernard" />
+	<foaf:knows rdf:resource="#Rey_Felix" />
+	<foaf:knows rdf:resource="#Lopez_S" />
+	<foaf:knows rdf:resource="#Nejmeddine_M" />
+	<foaf:knows rdf:resource="#Petitpas_Isabelle" />
+	<foaf:knows rdf:resource="#Rey_F A" />
+	<foaf:knows rdf:resource="#Estes_M K" />
+	<foaf:knows rdf:resource="#Gajardo_R" />
+	<foaf:knows rdf:resource="#Charpilienne_A" />
+	<foaf:knows rdf:resource="#Carrat_C" />
+	<foaf:knows rdf:resource="#Bremont_M" />
+	<foaf:knows rdf:resource="#Delmas_Bernard" />
+	<foaf:knows rdf:resource="#Duarte_Mariela" />
+	<foaf:knows rdf:resource="#Torres-Vega_M A" />
+	<foaf:knows rdf:resource="#Morley_S J" />
+	<foaf:knows rdf:resource="#Kean_K M" />
+	<foaf:knows rdf:resource="#Piron_Maria" />
+	<foaf:knows rdf:resource="#Castagné_N" />
+	<foaf:knows rdf:resource="#Eléouët_J F" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#Berois_Mabel" />
+	<foaf:knows rdf:resource="#Becker_Michelle M" />
+	<foaf:knows rdf:resource="#Vende_Patrice" />
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#Vitour_Damien" />
+	<foaf:knows rdf:resource="#López_S" />
+	<foaf:knows rdf:resource="#Arias_C F" />
+	<foaf:knows rdf:resource="#Delaunay_T" />
+	<foaf:knows rdf:resource="#Grosclaude_J" />
+	<foaf:knows rdf:resource="#Péry_P" />
+	<foaf:knows rdf:resource="#Labbé_M" />
+	<foaf:knows rdf:resource="#Laude_Hubert" />
+	<foaf:knows rdf:resource="#Béarzotti_Monique" />
+	<foaf:knows rdf:resource="#Benmansour_Abdenour" />
+	<foaf:knows rdf:resource="#Riffault_S" />
+	<foaf:knows rdf:resource="#La Bonnardière_C" />
+	<foaf:knows rdf:resource="#Lefèvre_François" />
+	<foaf:knows rdf:resource="#Bearzotti_M" />
+	<foaf:knows rdf:resource="#Chapuis_J" />
+
+
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Grosclaude_J" >
+	<foaf:name>Grosclaude J</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Grosclaude</foaf:family_name>
+	<foaf:homepage  rdf:resource="http://www.inra.fr"/>
+	<foaf:knows rdf:resource="#Riffault_S" />
+	<foaf:knows rdf:resource="#Béarzotti_Monique" />
+	<foaf:knows rdf:resource="#Delaunay_T" />
+	<foaf:knows rdf:resource="#Piron_Maria" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+	<foaf:knows rdf:resource="#Vende_Patrice" />
+	<foaf:knows rdf:resource="#Charley_Bernard" />
+	<foaf:knows rdf:resource="#Charpilienne_A" />
+	<foaf:knows rdf:resource="#Carrat_C" />
+	<foaf:knows rdf:resource="#Bremont_M" />
+	<foaf:knows rdf:resource="#Delmas_Bernard" />
+	<foaf:knows rdf:resource="#Laude_Hubert" />
+	<foaf:knows rdf:resource="#Labbé_M" />
+	<foaf:knows rdf:resource="#Péry_P" />
+	<foaf:knows rdf:resource="#Benmansour_Abdenour" />
+	<foaf:knows rdf:resource="#La Bonnardière_C" />
+	<foaf:knows rdf:resource="#Lefèvre_François" />
+	<foaf:knows rdf:resource="#Bearzotti_M" />
+	<foaf:knows rdf:resource="#Duarte_Mariela" />
+	<foaf:knows rdf:resource="#Castagné_N" />
+	<foaf:knows rdf:resource="#Eléouët_Jean-François" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+
+
+
+
+
+
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Péry_P" >
+	<foaf:name>Péry P</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Péry</foaf:family_name>
+	<foaf:homepage  rdf:resource="http://www.inra.fr"/>
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+	<foaf:knows rdf:resource="#Grosclaude_J" />
+	<foaf:knows rdf:resource="#Vende_Patrice" />
+	<foaf:knows rdf:resource="#Charley_Bernard" />
+	<foaf:knows rdf:resource="#Charpilienne_A" />
+	<foaf:knows rdf:resource="#Carrat_C" />
+	<foaf:knows rdf:resource="#La Bonnardière_C" />
+	<foaf:knows rdf:resource="#Bremont_M" />
+	<foaf:knows rdf:resource="#Delmas_Bernard" />
+	<foaf:knows rdf:resource="#Labbé_M" />
+	<foaf:knows rdf:resource="#Laude_Hubert" />
+	<foaf:knows rdf:resource="#Béarzotti_Monique" />
+	<foaf:knows rdf:resource="#Benmansour_Abdenour" />
+	<foaf:knows rdf:resource="#Riffault_S" />
+	<foaf:knows rdf:resource="#Lefèvre_François" />
+	<foaf:knows rdf:resource="#Bearzotti_M" />
+	<foaf:knows rdf:resource="#Duarte_Mariela" />
+	<foaf:knows rdf:resource="#Castagné_N" />
+	<foaf:knows rdf:resource="#Eléouët_Jean-François" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+
+
+
+
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Labbé_M" >
+	<foaf:name>Labbé M</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Labbé</foaf:family_name>
+	<foaf:homepage  rdf:resource="http://www.inra.fr"/>
+	<foaf:knows rdf:resource="#Vende_Patrice" />
+	<foaf:knows rdf:resource="#Charley_Bernard" />
+	<foaf:knows rdf:resource="#Charpilienne_A" />
+	<foaf:knows rdf:resource="#Carrat_C" />
+	<foaf:knows rdf:resource="#La Bonnardière_C" />
+	<foaf:knows rdf:resource="#Delmas_Bernard" />
+	<foaf:knows rdf:resource="#Laude_Hubert" />
+	<foaf:knows rdf:resource="#Bremont_M" />
+	<foaf:knows rdf:resource="#Béarzotti_Monique" />
+	<foaf:knows rdf:resource="#Benmansour_Abdenour" />
+	<foaf:knows rdf:resource="#Riffault_S" />
+	<foaf:knows rdf:resource="#Lefèvre_François" />
+	<foaf:knows rdf:resource="#Bearzotti_M" />
+	<foaf:knows rdf:resource="#Duarte_Mariela" />
+	<foaf:knows rdf:resource="#Castagné_N" />
+	<foaf:knows rdf:resource="#Eléouët_Jean-François" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#Baudoux_P" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+	<foaf:knows rdf:resource="#Grosclaude_J" />
+	<foaf:knows rdf:resource="#Péry_P" />
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Laude_Hubert" >
+	<foaf:name>Laude Hubert</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Laude</foaf:family_name>
+	<foaf:firstName>Hubert</foaf:firstName>
+	<foaf:homepage  rdf:resource="http://www.inra.fr"/>
+	<foaf:knows rdf:resource="#Delmas_Bernard" />
+	<foaf:knows rdf:resource="#Labbé_M" />
+	<foaf:knows rdf:resource="#Riffault_S" />
+	<foaf:knows rdf:resource="#Eléouët_Jean-François" />
+	<foaf:knows rdf:resource="#Le Dur_Annick" />
+	<foaf:knows rdf:resource="#Baudoux_P" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+	<foaf:knows rdf:resource="#Grosclaude_J" />
+	<foaf:knows rdf:resource="#Charley_Bernard" />
+	<foaf:knows rdf:resource="#Vende_Patrice" />
+	<foaf:knows rdf:resource="#Péry_P" />
+	<foaf:knows rdf:resource="#Charpilienne_A" />
+	<foaf:knows rdf:resource="#Carrat_C" />
+	<foaf:knows rdf:resource="#La Bonnardière_C" />
+	<foaf:knows rdf:resource="#Petit_Stéphanie" />
+	<foaf:knows rdf:resource="#Chapuis_J" />
+	<foaf:knows rdf:resource="#Archer_Fabienne" />
+	<foaf:knows rdf:resource="#Moudjou_Mohammed" />
+	<foaf:knows rdf:resource="#Vilette_Didier" />
+	<foaf:knows rdf:resource="#Bremont_M" />
+	<foaf:knows rdf:resource="#Béarzotti_Monique" />
+	<foaf:knows rdf:resource="#Benmansour_Abdenour" />
+	<foaf:knows rdf:resource="#Lefèvre_François" />
+	<foaf:knows rdf:resource="#Boudinot_Pierre" />
+	<foaf:knows rdf:resource="#Bearzotti_M" />
+	<foaf:knows rdf:resource="#Duarte_Mariela" />
+	<foaf:knows rdf:resource="#Piron_Maria" />
+	<foaf:knows rdf:resource="#Castagné_N" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Petit_Stéphanie" >
+	<foaf:name>Petit Stéphanie</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Petit</foaf:family_name>
+	<foaf:firstName>Stéphanie</foaf:firstName>
+	<foaf:homepage  rdf:resource="http://www.inra.fr"/>
+	<foaf:knows rdf:resource="#Delmas_Bernard" />
+	<foaf:knows rdf:resource="#Vilette_Didier" />
+	<foaf:knows rdf:resource="#Le Dur_Annick" />
+	<foaf:knows rdf:resource="#Bearzotti_M" />
+	<foaf:knows rdf:resource="#Castagné_N" />
+	<foaf:knows rdf:resource="#Laude_Hubert" />
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Delmas_Bernard" >
+	<foaf:name>Delmas Bernard</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Delmas</foaf:family_name>
+	<foaf:firstName>Bernard</foaf:firstName>
+	<foaf:homepage  rdf:resource="http://www.inra.fr"/>
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#Charley_Bernard" />
+	<foaf:knows rdf:resource="#Charpilienne_A" />
+	<foaf:knows rdf:resource="#Carrat_C" />
+	<foaf:knows rdf:resource="#La Bonnardière_C" />
+	<foaf:knows rdf:resource="#Laude_Hubert" />
+	<foaf:knows rdf:resource="#Bremont_M" />
+	<foaf:knows rdf:resource="#Bearzotti_M" />
+	<foaf:knows rdf:resource="#Eléouët_J F" />
+	<foaf:knows rdf:resource="#Lefrère_François" />
+	<foaf:knows rdf:resource="#Rey_Félix A" />
+	<foaf:knows rdf:resource="#Béarzotti_Monique" />
+	<foaf:knows rdf:resource="#Benmansour_Abdenour" />
+	<foaf:knows rdf:resource="#Riffault_S" />
+	<foaf:knows rdf:resource="#Lefèvre_François" />
+	<foaf:knows rdf:resource="#Boudinot_Pierre" />
+	<foaf:knows rdf:resource="#Duarte_Mariela" />
+	<foaf:knows rdf:resource="#Piron_Maria" />
+	<foaf:knows rdf:resource="#Castagné_N" />
+	<foaf:knows rdf:resource="#Eléouët_Jean-François" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#Labbé_M" />
+	<foaf:knows rdf:resource="#Petit_Stéphanie" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+	<foaf:knows rdf:resource="#Grosclaude_J" />
+	<foaf:knows rdf:resource="#Péry_P" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Bremont_M" >
+	<foaf:name>Bremont M</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Bremont</foaf:family_name>
+	<foaf:knows rdf:resource="#Delmas_Bernard" />
+	<foaf:knows rdf:resource="#Labbé_M" />
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#Charley_Bernard" />
+	<foaf:knows rdf:resource="#Charpilienne_A" />
+	<foaf:knows rdf:resource="#Carrat_C" />
+	<foaf:knows rdf:resource="#La Bonnardière_C" />
+	<foaf:knows rdf:resource="#Boudinot_Pierre" />
+	<foaf:knows rdf:resource="#Benmansour_Abdenour" />
+	<foaf:knows rdf:resource="#Villoing_Stéphane" />
+	<foaf:knows rdf:resource="#Biacchesi_Stéphane" />
+	<foaf:knows rdf:resource="#Béarzotti_Monique" />
+	<foaf:knows rdf:resource="#Vende_Patrice" />
+	<foaf:knows rdf:resource="#Bearzotti_M" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#Riffault_S" />
+	<foaf:knows rdf:resource="#Lefèvre_François" />
+	<foaf:knows rdf:resource="#Duarte_Mariela" />
+	<foaf:knows rdf:resource="#Piron_Maria" />
+	<foaf:knows rdf:resource="#Castagné_N" />
+	<foaf:knows rdf:resource="#Eléouët_Jean-François" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+	<foaf:knows rdf:resource="#Grosclaude_J" />
+	<foaf:knows rdf:resource="#Péry_P" />
+	<foaf:knows rdf:resource="#Laude_Hubert" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Béarzotti_Monique" >
+	<foaf:name>Béarzotti Monique</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Béarzotti</foaf:family_name>
+	<foaf:firstName>Monique</foaf:firstName>
+	<foaf:homepage  rdf:resource="http://www.inra.fr"/>
+	<foaf:knows rdf:resource="#Delmas_Bernard" />
+	<foaf:knows rdf:resource="#Labbé_M" />
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#Charley_Bernard" />
+	<foaf:knows rdf:resource="#Charpilienne_A" />
+	<foaf:knows rdf:resource="#Carrat_C" />
+	<foaf:knows rdf:resource="#La Bonnardière_C" />
+	<foaf:knows rdf:resource="#Biacchesi_Stéphane" />
+	<foaf:knows rdf:resource="#Villoing_Stéphane" />
+	<foaf:knows rdf:resource="#Vende_Patrice" />
+	<foaf:knows rdf:resource="#Grosclaude_J" />
+	<foaf:knows rdf:resource="#Benmansour_Abdenour" />
+	<foaf:knows rdf:resource="#Riffault_S" />
+	<foaf:knows rdf:resource="#Lefèvre_François" />
+	<foaf:knows rdf:resource="#Bearzotti_M" />
+	<foaf:knows rdf:resource="#Duarte_Mariela" />
+	<foaf:knows rdf:resource="#Piron_Maria" />
+	<foaf:knows rdf:resource="#Castagné_N" />
+	<foaf:knows rdf:resource="#Eléouët_Jean-François" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#Bremont_M" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+	<foaf:knows rdf:resource="#Péry_P" />
+	<foaf:knows rdf:resource="#Laude_Hubert" />
+
+
+
+
+
+
+
+
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Biacchesi_Stéphane" >
+	<foaf:name>Biacchesi Stéphane</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Biacchesi</foaf:family_name>
+	<foaf:firstName>Stéphane</foaf:firstName>
+	<foaf:knows rdf:resource="#Bearzotti_M" />
+	<foaf:knows rdf:resource="#Castagné_N" />
+	<foaf:knows rdf:resource="#Béarzotti_Monique" />
+	<foaf:knows rdf:resource="#Bremont_M" />
+
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Villoing_Stéphane" >
+	<foaf:name>Villoing Stéphane</foaf:name>
+	<foaf:img rdf:resource="img/iconVilloing_Stéphane.png"/>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Villoing</foaf:family_name>
+	<foaf:firstName>Stéphane</foaf:firstName>
+	<foaf:knows rdf:resource="#Bearzotti_M" />
+	<foaf:knows rdf:resource="#Piron_Maria" />
+	<foaf:knows rdf:resource="#Béarzotti_Monique" />
+	<foaf:knows rdf:resource="#Bremont_M" />
+
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Benmansour_Abdenour" >
+	<foaf:name>Benmansour Abdenour</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Benmansour</foaf:family_name>
+	<foaf:firstName>Abdenour</foaf:firstName>
+	<foaf:knows rdf:resource="#Delmas_Bernard" />
+	<foaf:knows rdf:resource="#Labbé_M" />
+	<foaf:knows rdf:resource="#Charley_Bernard" />
+	<foaf:knows rdf:resource="#Charpilienne_A" />
+	<foaf:knows rdf:resource="#Carrat_C" />
+	<foaf:knows rdf:resource="#La Bonnardière_C" />
+	<foaf:knows rdf:resource="#Boudinot_Pierre" />
+	<foaf:knows rdf:resource="#Riffault_S" />
+	<foaf:knows rdf:resource="#Vende_Patrice" />
+	<foaf:knows rdf:resource="#Lefèvre_François" />
+	<foaf:knows rdf:resource="#Bearzotti_M" />
+	<foaf:knows rdf:resource="#Duarte_Mariela" />
+	<foaf:knows rdf:resource="#Castagné_N" />
+	<foaf:knows rdf:resource="#Eléouët_Jean-François" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#Béarzotti_Monique" />
+	<foaf:knows rdf:resource="#Bremont_M" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+	<foaf:knows rdf:resource="#Grosclaude_J" />
+	<foaf:knows rdf:resource="#Péry_P" />
+	<foaf:knows rdf:resource="#Laude_Hubert" />
+
+
+
+
+
+
+
+
+
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Riffault_S" >
+	<foaf:name>Riffault S</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Riffault</foaf:family_name>
+	<foaf:homepage  rdf:resource="http://www.inra.fr"/>
+	<foaf:knows rdf:resource="#Delmas_Bernard" />
+	<foaf:knows rdf:resource="#Labbé_M" />
+	<foaf:knows rdf:resource="#Benmansour_Abdenour" />
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#Charpilienne_A" />
+	<foaf:knows rdf:resource="#Lefèvre_François" />
+	<foaf:knows rdf:resource="#Charley_Bernard" />
+	<foaf:knows rdf:resource="#Carrat_C" />
+	<foaf:knows rdf:resource="#Boudinot_Pierre" />
+	<foaf:knows rdf:resource="#La Bonnardière_C" />
+	<foaf:knows rdf:resource="#Grosclaude_J" />
+	<foaf:knows rdf:resource="#Laude_Hubert" />
+	<foaf:knows rdf:resource="#Bearzotti_M" />
+	<foaf:knows rdf:resource="#Castagné_N" />
+	<foaf:knows rdf:resource="#Eléouët_Jean-François" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#Béarzotti_Monique" />
+	<foaf:knows rdf:resource="#Bremont_M" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+	<foaf:knows rdf:resource="#Péry_P" />
+
+
+
+
+
+
+
+
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="La Bonnardière_C" >
+	<foaf:name>La Bonnardière C</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>La Bonnardière</foaf:family_name>
+	<foaf:knows rdf:resource="#Delmas_Bernard" />
+	<foaf:knows rdf:resource="#Labbé_M" />
+	<foaf:knows rdf:resource="#Benmansour_Abdenour" />
+	<foaf:knows rdf:resource="#Riffault_S" />
+	<foaf:knows rdf:resource="#Béarzotti_Monique" />
+	<foaf:knows rdf:resource="#La Bonnardiere_C" />
+	<foaf:knows rdf:resource="#Charley_Bernard" />
+	<foaf:knows rdf:resource="#Carrat_C" />
+	<foaf:knows rdf:resource="#LeFèvre_F" />
+	<foaf:knows rdf:resource="#Lefèvre_François" />
+	<foaf:knows rdf:resource="#Lefevre_F" />
+	<foaf:knows rdf:resource="#Boudinot_Pierre" />
+	<foaf:knows rdf:resource="#Bearzotti_M" />
+	<foaf:knows rdf:resource="#Duarte_Mariela" />
+	<foaf:knows rdf:resource="#Piron_Maria" />
+	<foaf:knows rdf:resource="#Castagné_N" />
+	<foaf:knows rdf:resource="#Eléouët_Jean-François" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#Bremont_M" />
+	<foaf:knows rdf:resource="#Moudjou_Mohammed" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+	<foaf:knows rdf:resource="#Grosclaude_J" />
+	<foaf:knows rdf:resource="#Péry_P" />
+	<foaf:knows rdf:resource="#Laude_Hubert" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="La Bonnardiere_C" >
+	<foaf:name>La Bonnardiere C</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>La Bonnardiere</foaf:family_name>
+	<foaf:knows rdf:resource="#Charley_Bernard" />
+	<foaf:knows rdf:resource="#Charpilienne_A" />
+	<foaf:knows rdf:resource="#Carrat_C" />
+	<foaf:knows rdf:resource="#Lefèvre_François" />
+	<foaf:knows rdf:resource="#Boudinot_Pierre" />
+	<foaf:knows rdf:resource="#Bearzotti_M" />
+	<foaf:knows rdf:resource="#Duarte_Mariela" />
+	<foaf:knows rdf:resource="#Piron_Maria" />
+	<foaf:knows rdf:resource="#Castagné_N" />
+	<foaf:knows rdf:resource="#Eléouët_Jean-François" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#La Bonnardière_C" />
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="LeFèvre_F" >
+	<foaf:name>LeFèvre F</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>LeFèvre</foaf:family_name>
+	<foaf:knows rdf:resource="#Boudinot_Pierre" />
+	<foaf:knows rdf:resource="#Bearzotti_M" />
+	<foaf:knows rdf:resource="#Duarte_Mariela" />
+	<foaf:knows rdf:resource="#Piron_Maria" />
+	<foaf:knows rdf:resource="#Castagné_N" />
+	<foaf:knows rdf:resource="#Eléouët_Jean-François" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#La Bonnardière_C" />
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Lefevre_F" >
+	<foaf:name>Lefevre F</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Lefevre</foaf:family_name>
+	<foaf:knows rdf:resource="#La Bonnardière_C" />
+	<foaf:knows rdf:resource="#Charpilienne_A" />
+	<foaf:knows rdf:resource="#Carrat_C" />
+	<foaf:knows rdf:resource="#Charley_Bernard" />
+	<foaf:knows rdf:resource="#Bearzotti_M" />
+	<foaf:knows rdf:resource="#Duarte_Mariela" />
+	<foaf:knows rdf:resource="#Piron_Maria" />
+	<foaf:knows rdf:resource="#Castagné_N" />
+	<foaf:knows rdf:resource="#Eléouët_Jean-François" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Carrat_C" >
+	<foaf:name>Carrat C</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Carrat</foaf:family_name>
+	<foaf:knows rdf:resource="#La Bonnardiere_C" />
+	<foaf:knows rdf:resource="#Delmas_Bernard" />
+	<foaf:knows rdf:resource="#Labbé_M" />
+	<foaf:knows rdf:resource="#Benmansour_Abdenour" />
+	<foaf:knows rdf:resource="#Riffault_S" />
+	<foaf:knows rdf:resource="#Boudinot_Pierre" />
+	<foaf:knows rdf:resource="#Béarzotti_Monique" />
+	<foaf:knows rdf:resource="#La Bonnardière_C" />
+	<foaf:knows rdf:resource="#Bremont_M" />
+	<foaf:knows rdf:resource="#Lefevre_F" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+	<foaf:knows rdf:resource="#Grosclaude_J" />
+	<foaf:knows rdf:resource="#Péry_P" />
+	<foaf:knows rdf:resource="#Laude_Hubert" />
+	<foaf:knows rdf:resource="#Charpilienne_A" />
+	<foaf:knows rdf:resource="#Baudoux_P" />
+	<foaf:knows rdf:resource="#Charley_Bernard" />
+	<foaf:knows rdf:resource="#Eléouët_Jean-François" />
+
+
+
+
+
+
+
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Baudoux_P" >
+	<foaf:name>Baudoux P</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Baudoux</foaf:family_name>
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+	<foaf:knows rdf:resource="#Charpilienne_A" />
+	<foaf:knows rdf:resource="#Labbé_M" />
+	<foaf:knows rdf:resource="#Laude_Hubert" />
+	<foaf:knows rdf:resource="#Charley_Bernard" />
+	<foaf:knows rdf:resource="#Carrat_C" />
+
+
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Charpilienne_A" >
+	<foaf:name>Charpilienne A</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Charpilienne</foaf:family_name>
+	<foaf:homepage  rdf:resource="http://www.inra.fr"/>
+	<foaf:knows rdf:resource="#La Bonnardiere_C" />
+	<foaf:knows rdf:resource="#Delmas_Bernard" />
+	<foaf:knows rdf:resource="#Labbé_M" />
+	<foaf:knows rdf:resource="#Benmansour_Abdenour" />
+	<foaf:knows rdf:resource="#Riffault_S" />
+	<foaf:knows rdf:resource="#Béarzotti_Monique" />
+	<foaf:knows rdf:resource="#Bremont_M" />
+	<foaf:knows rdf:resource="#Baudoux_P" />
+	<foaf:knows rdf:resource="#Lefevre_F" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+	<foaf:knows rdf:resource="#Grosclaude_J" />
+	<foaf:knows rdf:resource="#Péry_P" />
+	<foaf:knows rdf:resource="#Laude_Hubert" />
+	<foaf:knows rdf:resource="#Vitour_Damien" />
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#Vende_Patrice" />
+	<foaf:knows rdf:resource="#Aponte_C" />
+	<foaf:knows rdf:resource="#Gajardo_R" />
+	<foaf:knows rdf:resource="#Estes_M K" />
+	<foaf:knows rdf:resource="#Rey_F A" />
+	<foaf:knows rdf:resource="#Petitpas_Isabelle" />
+	<foaf:knows rdf:resource="#Guérin-Danan_C" />
+	<foaf:knows rdf:resource="#Guérin-Danan_C" />
+	<foaf:knows rdf:resource="#Berois_Mabel" />
+	<foaf:knows rdf:resource="#Nejmeddine_M" />
+	<foaf:knows rdf:resource="#Rey_Felix" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#Charley_Bernard" />
+	<foaf:knows rdf:resource="#Bearzotti_M" />
+	<foaf:knows rdf:resource="#Duarte_Mariela" />
+	<foaf:knows rdf:resource="#Piron_Maria" />
+	<foaf:knows rdf:resource="#Castagné_N" />
+	<foaf:knows rdf:resource="#Eléouët_Jean-François" />
+	<foaf:knows rdf:resource="#Carrat_C" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Aponte_C" >
+	<foaf:name>Aponte C</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Aponte</foaf:family_name>
+	<foaf:knows rdf:resource="#Vende_Patrice" />
+	<foaf:knows rdf:resource="#Gajardo_R" />
+	<foaf:knows rdf:resource="#Estes_M K" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+	<foaf:knows rdf:resource="#Duarte_Mariela" />
+	<foaf:knows rdf:resource="#Piron_Maria" />
+	<foaf:knows rdf:resource="#Charpilienne_A" />
+
+
+
+</foaf:Person>
+
+
+
+<foaf:Person rdf:ID="Gajardo_R" >
+	<foaf:name>Gajardo R</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Gajardo</foaf:family_name>
+	<foaf:knows rdf:resource="#Aponte_C" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+	<foaf:knows rdf:resource="#Charpilienne_A" />
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#Vende_Patrice" />
+	<foaf:knows rdf:resource="#Duarte_Mariela" />
+	<foaf:knows rdf:resource="#Piron_Maria" />
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Estes_M K" >
+	<foaf:name>Estes M K</foaf:name>
+	<foaf:img rdf:resource="img/iconEstes_MK.png"/>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Estes</foaf:family_name>
+	<foaf:firstName>M K</foaf:firstName>
+	<foaf:knows rdf:resource="#Aponte_C" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#Charpilienne_A" />
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Rey_F A" >
+	<foaf:name>Rey F A</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Rey</foaf:family_name>
+	<foaf:firstName>F A</foaf:firstName>
+	<foaf:knows rdf:resource="#Vende_Patrice" />
+	<foaf:knows rdf:resource="#Petitpas_Isabelle" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+	<foaf:knows rdf:resource="#Charpilienne_A" />
+
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Petitpas_Isabelle" >
+	<foaf:name>Petitpas I</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Petitpas</foaf:family_name>
+	<foaf:knows rdf:resource="#Rey_F A" />
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#Vende_Patrice" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#Duarte_Mariela" />
+	<foaf:knows rdf:resource="#Piron_Maria" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+	<foaf:knows rdf:resource="#Charpilienne_A" />
+
+
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Guérin-Danan_C" >
+	<foaf:name>Guerin-Danan Corinne</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Guerin-Danan</foaf:family_name>
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#Charpilienne_A" />
+	<foaf:img rdf:resource="img/iconGuérin-Danan_C.png"/>
+</foaf:Person>
+
+
+
+<foaf:Person rdf:ID="Nejmeddine_M" >
+	<foaf:name>Nejmeddine M</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Nejmeddine</foaf:family_name>
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#Vende_Patrice" />
+	<foaf:knows rdf:resource="#Lopez_S" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#Berois_Mabel" />
+	<foaf:knows rdf:resource="#Duarte_Mariela" />
+	<foaf:knows rdf:resource="#Piron_Maria" />
+	<foaf:knows rdf:resource="#Castagné_N" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+	<foaf:knows rdf:resource="#Charpilienne_A" />
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Lopez_S" >
+	<foaf:name>Lopez S</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Lopez</foaf:family_name>
+	<foaf:knows rdf:resource="#Nejmeddine_M" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+	<foaf:knows rdf:resource="#Arias_C F" />
+	<foaf:knows rdf:resource="#Duarte_Mariela" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Rey_Felix" >
+	<foaf:name>Rey Felix</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Rey</foaf:family_name>
+	<foaf:firstName>Felix</foaf:firstName>
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+	<foaf:knows rdf:resource="#Duarte_Mariela" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#Charpilienne_A" />
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Charley_Bernard" >
+	<foaf:name>Charley Bernard</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Charley</foaf:family_name>
+	<foaf:firstName>Bernard</foaf:firstName>
+	<foaf:img rdf:resource="img/iconCharley_Bernard.png"/>
+	<foaf:knows rdf:resource="#La Bonnardiere_C" />
+	<foaf:knows rdf:resource="#Delmas_Bernard" />
+	<foaf:knows rdf:resource="#Labbé_M" />
+	<foaf:knows rdf:resource="#Benmansour_Abdenour" />
+	<foaf:knows rdf:resource="#Riffault_S" />
+	<foaf:knows rdf:resource="#Boudinot_Pierre" />
+	<foaf:knows rdf:resource="#Béarzotti_Monique" />
+	<foaf:knows rdf:resource="#La Bonnardière_C" />
+	<foaf:knows rdf:resource="#Bremont_M" />
+	<foaf:knows rdf:resource="#Baudoux_P" />
+	<foaf:knows rdf:resource="#Lefevre_F" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+	<foaf:knows rdf:resource="#Grosclaude_J" />
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#Vende_Patrice" />
+	<foaf:knows rdf:resource="#Lefèvre_François" />
+	<foaf:knows rdf:resource="#Laude_Hubert" />
+	<foaf:knows rdf:resource="#Bearzotti_M" />
+	<foaf:knows rdf:resource="#Duarte_Mariela" />
+	<foaf:knows rdf:resource="#Castagné_N" />
+	<foaf:knows rdf:resource="#Eléouët_Jean-François" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#Péry_P" />
+	<foaf:knows rdf:resource="#Charpilienne_A" />
+	<foaf:knows rdf:resource="#Carrat_C" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Lefèvre_François" >
+	<foaf:name>Lefèvre François</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Lefèvre</foaf:family_name>
+	<foaf:firstName>François</foaf:firstName>
+	<foaf:knows rdf:resource="#La Bonnardiere_C" />
+	<foaf:knows rdf:resource="#Delmas_Bernard" />
+	<foaf:knows rdf:resource="#Labbé_M" />
+	<foaf:knows rdf:resource="#Benmansour_Abdenour" />
+	<foaf:knows rdf:resource="#Vende_Patrice" />
+	<foaf:knows rdf:resource="#Boudinot_Pierre" />
+	<foaf:knows rdf:resource="#Bearzotti_M" />
+	<foaf:knows rdf:resource="#Duarte_Mariela" />
+	<foaf:knows rdf:resource="#Piron_Maria" />
+	<foaf:knows rdf:resource="#Castagné_N" />
+	<foaf:knows rdf:resource="#Eléouët_Jean-François" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#Riffault_S" />
+	<foaf:knows rdf:resource="#Béarzotti_Monique" />
+	<foaf:knows rdf:resource="#La Bonnardière_C" />
+	<foaf:knows rdf:resource="#Bremont_M" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+	<foaf:knows rdf:resource="#Grosclaude_J" />
+	<foaf:knows rdf:resource="#Charley_Bernard" />
+	<foaf:knows rdf:resource="#Péry_P" />
+	<foaf:knows rdf:resource="#Laude_Hubert" />
+
+
+
+
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Boudinot_Pierre" >
+	<foaf:name>Boudinot Pierre</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Boudinot</foaf:family_name>
+	<foaf:firstName>Pierre</foaf:firstName>
+	<foaf:knows rdf:resource="#La Bonnardiere_C" />
+	<foaf:knows rdf:resource="#Delmas_Bernard" />
+	<foaf:knows rdf:resource="#Benmansour_Abdenour" />
+	<foaf:knows rdf:resource="#Lefèvre_François" />
+	<foaf:knows rdf:resource="#LeFèvre_F" />
+	<foaf:knows rdf:resource="#Riffault_S" />
+	<foaf:knows rdf:resource="#Vende_Patrice" />
+	<foaf:knows rdf:resource="#Carrat_C" />
+	<foaf:knows rdf:resource="#Charley_Bernard" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#La Bonnardière_C" />
+	<foaf:knows rdf:resource="#Bremont_M" />
+	<foaf:knows rdf:resource="#Laude_Hubert" />
+
+
+
+
+
+
+
+
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Bearzotti_M" >
+	<foaf:name>Bearzotti M</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Bearzotti</foaf:family_name>
+	<foaf:knows rdf:resource="#La Bonnardiere_C" />
+	<foaf:knows rdf:resource="#Delmas_Bernard" />
+	<foaf:knows rdf:resource="#Labbé_M" />
+	<foaf:knows rdf:resource="#Biacchesi_Stéphane" />
+	<foaf:knows rdf:resource="#Benmansour_Abdenour" />
+	<foaf:knows rdf:resource="#Villoing_Stéphane" />
+	<foaf:knows rdf:resource="#Lefèvre_François" />
+	<foaf:knows rdf:resource="#LeFèvre_F" />
+	<foaf:knows rdf:resource="#Riffault_S" />
+	<foaf:knows rdf:resource="#Béarzotti_Monique" />
+	<foaf:knows rdf:resource="#La Bonnardière_C" />
+	<foaf:knows rdf:resource="#Bremont_M" />
+	<foaf:knows rdf:resource="#Petit_Stéphanie" />
+	<foaf:knows rdf:resource="#Vende_Patrice" />
+	<foaf:knows rdf:resource="#Duarte_Mariela" />
+	<foaf:knows rdf:resource="#Castagné_N" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#Lefevre_F" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+	<foaf:knows rdf:resource="#Grosclaude_J" />
+	<foaf:knows rdf:resource="#Charley_Bernard" />
+	<foaf:knows rdf:resource="#Péry_P" />
+	<foaf:knows rdf:resource="#Laude_Hubert" />
+	<foaf:knows rdf:resource="#Charpilienne_A" />
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Lefrère_François" >
+	<foaf:name>Lefrère François</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Lefrère</foaf:family_name>
+	<foaf:firstName>François</foaf:firstName>
+	<foaf:knows rdf:resource="#Delmas_Bernard" />
+
+</foaf:Person>
+
+
+
+<foaf:Person rdf:ID="Rey_Félix A" >
+	<foaf:name>Rey Félix A</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Rey</foaf:family_name>
+	<foaf:firstName>Félix A</foaf:firstName>
+	<foaf:knows rdf:resource="#Delmas_Bernard" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Le Dur_Annick" >
+	<foaf:name>Le Dur Annick</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Le Dur</foaf:family_name>
+	<foaf:firstName>Annick</foaf:firstName>
+	<foaf:knows rdf:resource="#Archer_Fabienne" />
+	<foaf:knows rdf:resource="#Vilette_Didier" />
+	<foaf:knows rdf:resource="#Laude_Hubert" />
+	<foaf:knows rdf:resource="#Petit_Stéphanie" />
+
+
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Chapuis_J" >
+	<foaf:name>Chapuis J</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Chapuis</foaf:family_name>
+	<foaf:knows rdf:resource="#Vende_Patrice" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+	<foaf:knows rdf:resource="#Laude_Hubert" />
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Archer_Fabienne" >
+	<foaf:name>Archer Fabienne</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Archer</foaf:family_name>
+	<foaf:firstName>Fabienne</foaf:firstName>
+	<foaf:knows rdf:resource="#Le Dur_Annick" />
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#Vilette_Didier" />
+	<foaf:knows rdf:resource="#Laude_Hubert" />
+
+
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Moudjou_Mohammed" >
+	<foaf:name>Moudjou Mohammed</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Moudjou</foaf:family_name>
+	<foaf:firstName>Mohammed</foaf:firstName>
+	<foaf:knows rdf:resource="#La Bonnardière_C" />
+	<foaf:knows rdf:resource="#Castagné_N" />
+	<foaf:knows rdf:resource="#Laude_Hubert" />
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Vilette_Didier" >
+	<foaf:name>Vilette Didier</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Vilette</foaf:family_name>
+	<foaf:firstName>Didier</foaf:firstName>
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#Vende_Patrice" />
+	<foaf:knows rdf:resource="#Duarte_Mariela" />
+	<foaf:knows rdf:resource="#Piron_Maria" />
+	<foaf:knows rdf:resource="#Castagné_N" />
+	<foaf:knows rdf:resource="#Eléouët_Jean-François" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#Le Dur_Annick" />
+	<foaf:knows rdf:resource="#Archer_Fabienne" />
+	<foaf:knows rdf:resource="#Petit_Stéphanie" />
+	<foaf:knows rdf:resource="#Laude_Hubert" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Delaunay_T" >
+	<foaf:name>Delaunay T</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Delaunay</foaf:family_name>
+	<foaf:knows rdf:resource="#Piron_Maria" />
+	<foaf:knows rdf:resource="#Grosclaude_J" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Arias_C F" >
+	<foaf:name>Arias C F</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Arias</foaf:family_name>
+	<foaf:firstName>C F</foaf:firstName>
+	<foaf:knows rdf:resource="#Duarte_Mariela" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+	<foaf:knows rdf:resource="#Lopez_S" />
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="López_S" >
+	<foaf:name>López S</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>López</foaf:family_name>
+	<foaf:knows rdf:resource="#Duarte_Mariela" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Duarte_Mariela" >
+	<foaf:name>Duarte M</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Duarte</foaf:family_name>
+	<foaf:knows rdf:resource="#La Bonnardiere_C" />
+	<foaf:knows rdf:resource="#Delmas_Bernard" />
+	<foaf:knows rdf:resource="#Labbé_M" />
+	<foaf:knows rdf:resource="#Benmansour_Abdenour" />
+	<foaf:knows rdf:resource="#Lefèvre_François" />
+	<foaf:knows rdf:resource="#Aponte_C" />
+	<foaf:knows rdf:resource="#LeFèvre_F" />
+	<foaf:knows rdf:resource="#López_S" />
+	<foaf:knows rdf:resource="#Béarzotti_Monique" />
+	<foaf:knows rdf:resource="#Arias_C F" />
+	<foaf:knows rdf:resource="#Petitpas_Isabelle" />
+	<foaf:knows rdf:resource="#Vilette_Didier" />
+	<foaf:knows rdf:resource="#Nejmeddine_M" />
+	<foaf:knows rdf:resource="#La Bonnardière_C" />
+	<foaf:knows rdf:resource="#Bremont_M" />
+	<foaf:knows rdf:resource="#Boisgard_Raphaël" />
+	<foaf:knows rdf:resource="#Vitour_Damien" />
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#Vende_Patrice" />
+	<foaf:knows rdf:resource="#Piron_Maria" />
+	<foaf:knows rdf:resource="#Castagné_N" />
+	<foaf:knows rdf:resource="#Eléouët_Jean-François" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#Becker_Michelle M" />
+	<foaf:knows rdf:resource="#Bearzotti_M" />
+	<foaf:knows rdf:resource="#Lefevre_F" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+	<foaf:knows rdf:resource="#Grosclaude_J" />
+	<foaf:knows rdf:resource="#Charley_Bernard" />
+	<foaf:knows rdf:resource="#Lopez_S" />
+	<foaf:knows rdf:resource="#Rey_Felix" />
+	<foaf:knows rdf:resource="#Péry_P" />
+	<foaf:knows rdf:resource="#Laude_Hubert" />
+	<foaf:knows rdf:resource="#Charpilienne_A" />
+	<foaf:knows rdf:resource="#Gajardo_R" />
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Torres-Vega_M A" >
+	<foaf:name>Torres-Vega M A</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Torres-Vega</foaf:family_name>
+	<foaf:firstName>M A</foaf:firstName>
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Morley_S J" >
+	<foaf:name>Morley S J</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Morley</foaf:family_name>
+	<foaf:firstName>S J</foaf:firstName>
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Kean_K M" >
+	<foaf:name>Kean K M</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Kean</foaf:family_name>
+	<foaf:firstName>K M</foaf:firstName>
+	<foaf:knows rdf:resource="#Piron_Maria" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Piron_Maria" >
+	<foaf:name>Piron M</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Piron</foaf:family_name>
+	<foaf:knows rdf:resource="#La Bonnardiere_C" />
+	<foaf:knows rdf:resource="#Delmas_Bernard" />
+	<foaf:knows rdf:resource="#Villoing_Stéphane" />
+	<foaf:knows rdf:resource="#Lefèvre_François" />
+	<foaf:knows rdf:resource="#Aponte_C" />
+	<foaf:knows rdf:resource="#LeFèvre_F" />
+	<foaf:knows rdf:resource="#Béarzotti_Monique" />
+	<foaf:knows rdf:resource="#Delaunay_T" />
+	<foaf:knows rdf:resource="#Petitpas_Isabelle" />
+	<foaf:knows rdf:resource="#Vilette_Didier" />
+	<foaf:knows rdf:resource="#Boisgard_Raphaël" />
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#Kean_K M" />
+	<foaf:knows rdf:resource="#Grosclaude_J" />
+	<foaf:knows rdf:resource="#Vende_Patrice" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#Castagné_N" />
+	<foaf:knows rdf:resource="#Eléouët_Jean-François" />
+	<foaf:knows rdf:resource="#Berois_Mabel" />
+	<foaf:knows rdf:resource="#Nejmeddine_M" />
+	<foaf:knows rdf:resource="#La Bonnardière_C" />
+	<foaf:knows rdf:resource="#Bremont_M" />
+	<foaf:knows rdf:resource="#Duarte_Mariela" />
+	<foaf:knows rdf:resource="#Lefevre_F" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+	<foaf:knows rdf:resource="#Laude_Hubert" />
+	<foaf:knows rdf:resource="#Charpilienne_A" />
+	<foaf:knows rdf:resource="#Gajardo_R" />
+
+
+
+
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Castagné_N" >
+	<foaf:name>Castagné N</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Castagné</foaf:family_name>
+	<foaf:knows rdf:resource="#La Bonnardiere_C" />
+	<foaf:knows rdf:resource="#Delmas_Bernard" />
+	<foaf:knows rdf:resource="#Labbé_M" />
+	<foaf:knows rdf:resource="#Biacchesi_Stéphane" />
+	<foaf:knows rdf:resource="#Benmansour_Abdenour" />
+	<foaf:knows rdf:resource="#Lefèvre_François" />
+	<foaf:knows rdf:resource="#LeFèvre_F" />
+	<foaf:knows rdf:resource="#Riffault_S" />
+	<foaf:knows rdf:resource="#Béarzotti_Monique" />
+	<foaf:knows rdf:resource="#Vilette_Didier" />
+	<foaf:knows rdf:resource="#Piron_Maria" />
+	<foaf:knows rdf:resource="#Nejmeddine_M" />
+	<foaf:knows rdf:resource="#La Bonnardière_C" />
+	<foaf:knows rdf:resource="#Bremont_M" />
+	<foaf:knows rdf:resource="#Moudjou_Mohammed" />
+	<foaf:knows rdf:resource="#Duarte_Mariela" />
+	<foaf:knows rdf:resource="#Petit_Stéphanie" />
+	<foaf:knows rdf:resource="#Bearzotti_M" />
+	<foaf:knows rdf:resource="#Lefevre_F" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+	<foaf:knows rdf:resource="#Grosclaude_J" />
+	<foaf:knows rdf:resource="#Charley_Bernard" />
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#Eléouët_Jean-François" />
+	<foaf:knows rdf:resource="#Eléouët_J F" />
+	<foaf:knows rdf:resource="#Vende_Patrice" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#Péry_P" />
+	<foaf:knows rdf:resource="#Laude_Hubert" />
+	<foaf:knows rdf:resource="#Charpilienne_A" />
+
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Eléouët_Jean-François" >
+	<foaf:name>Eléouët Jean-François</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Eléouët</foaf:family_name>
+	<foaf:firstName>Jean-François</foaf:firstName>
+	<foaf:knows rdf:resource="#La Bonnardiere_C" />
+	<foaf:knows rdf:resource="#Delmas_Bernard" />
+	<foaf:knows rdf:resource="#Labbé_M" />
+	<foaf:knows rdf:resource="#Benmansour_Abdenour" />
+	<foaf:knows rdf:resource="#Lefèvre_François" />
+	<foaf:knows rdf:resource="#LeFèvre_F" />
+	<foaf:knows rdf:resource="#Riffault_S" />
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+	<foaf:knows rdf:resource="#Laude_Hubert" />
+	<foaf:knows rdf:resource="#Vende_Patrice" />
+	<foaf:knows rdf:resource="#Eleouet_J F" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#Béarzotti_Monique" />
+	<foaf:knows rdf:resource="#Vilette_Didier" />
+	<foaf:knows rdf:resource="#Piron_Maria" />
+	<foaf:knows rdf:resource="#La Bonnardière_C" />
+	<foaf:knows rdf:resource="#Bremont_M" />
+	<foaf:knows rdf:resource="#Duarte_Mariela" />
+	<foaf:knows rdf:resource="#Lefevre_F" />
+	<foaf:knows rdf:resource="#Grosclaude_J" />
+	<foaf:knows rdf:resource="#Charley_Bernard" />
+	<foaf:knows rdf:resource="#Castagné_N" />
+	<foaf:knows rdf:resource="#Péry_P" />
+	<foaf:knows rdf:resource="#Charpilienne_A" />
+	<foaf:knows rdf:resource="#Carrat_C" />
+
+
+
+
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Eleouet_J F" >
+	<foaf:name>Eleouet J F</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Eleouet</foaf:family_name>
+	<foaf:firstName>J F</foaf:firstName>
+	<foaf:knows rdf:resource="#Eléouët_Jean-François" />
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#Vende_Patrice" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Eléouët_J F" >
+	<foaf:name>Eléouët J F</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Eléouët</foaf:family_name>
+	<foaf:firstName>J F</foaf:firstName>
+	<foaf:knows rdf:resource="#Delmas_Bernard" />
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#Vende_Patrice" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+	<foaf:knows rdf:resource="#Castagné_N" />
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Cohen_Jean" >
+	<foaf:name>Cohen Jean</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Cohen</foaf:family_name>
+	<foaf:firstName>Jean</foaf:firstName>
+	<foaf:knows rdf:resource="#La Bonnardiere_C" />
+	<foaf:knows rdf:resource="#Delmas_Bernard" />
+	<foaf:knows rdf:resource="#Labbé_M" />
+	<foaf:knows rdf:resource="#Benmansour_Abdenour" />
+	<foaf:knows rdf:resource="#Lefèvre_François" />
+	<foaf:knows rdf:resource="#Aponte_C" />
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#LeFèvre_F" />
+	<foaf:knows rdf:resource="#Riffault_S" />
+	<foaf:knows rdf:resource="#Boudinot_Pierre" />
+	<foaf:knows rdf:resource="#López_S" />
+	<foaf:knows rdf:resource="#Eléouët_Jean-François" />
+	<foaf:knows rdf:resource="#Eléouët_J F" />
+	<foaf:knows rdf:resource="#Guérin-Danan_C" />
+	<foaf:knows rdf:resource="#Béarzotti_Monique" />
+	<foaf:knows rdf:resource="#Chapuis_J" />
+	<foaf:knows rdf:resource="#Delaunay_T" />
+	<foaf:knows rdf:resource="#Arias_C F" />
+	<foaf:knows rdf:resource="#Eleouet_J F" />
+	<foaf:knows rdf:resource="#Berois_Mabel" />
+	<foaf:knows rdf:resource="#Rey_F A" />
+	<foaf:knows rdf:resource="#Rey_Félix A" />
+	<foaf:knows rdf:resource="#Petitpas_Isabelle" />
+	<foaf:knows rdf:resource="#Vilette_Didier" />
+	<foaf:knows rdf:resource="#Piron_Maria" />
+	<foaf:knows rdf:resource="#Nejmeddine_M" />
+	<foaf:knows rdf:resource="#La Bonnardière_C" />
+	<foaf:knows rdf:resource="#Bremont_M" />
+	<foaf:knows rdf:resource="#Vitour_Damien" />
+	<foaf:knows rdf:resource="#Patton_John T" />
+	<foaf:knows rdf:resource="#Vende_Patrice" />
+	<foaf:knows rdf:resource="#Becker_Michelle M" />
+	<foaf:knows rdf:resource="#Baudoux_P" />
+	<foaf:knows rdf:resource="#Duarte_Mariela" />
+	<foaf:knows rdf:resource="#Bearzotti_M" />
+	<foaf:knows rdf:resource="#Lefevre_F" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+	<foaf:knows rdf:resource="#Grosclaude_J" />
+	<foaf:knows rdf:resource="#Charley_Bernard" />
+	<foaf:knows rdf:resource="#Guérin-Danan_C" />
+	<foaf:knows rdf:resource="#Lopez_S" />
+	<foaf:knows rdf:resource="#Rey_Felix" />
+	<foaf:knows rdf:resource="#Estes_M K" />
+	<foaf:knows rdf:resource="#Castagné_N" />
+	<foaf:knows rdf:resource="#Péry_P" />
+	<foaf:knows rdf:resource="#Laude_Hubert" />
+	<foaf:knows rdf:resource="#Charpilienne_A" />
+	<foaf:knows rdf:resource="#Gajardo_R" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Berois_Mabel" >
+	<foaf:name>Berois Mabel</foaf:name>
+	<foaf:img rdf:resource="img/iconBerois_Mabel.png"/>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Berois</foaf:family_name>
+	<foaf:firstName>Mabel</foaf:firstName>
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#Vende_Patrice" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#Becker_Michelle M" />
+	<foaf:knows rdf:resource="#Piron_Maria" />
+	<foaf:knows rdf:resource="#Nejmeddine_M" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+	<foaf:knows rdf:resource="#Charpilienne_A" />
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Becker_Michelle M" >
+	<foaf:name>Becker Michelle M</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Becker</foaf:family_name>
+	<foaf:firstName>Michelle M</foaf:firstName>
+	<foaf:knows rdf:resource="#Berois_Mabel" />
+	<foaf:knows rdf:resource="#Vitour_Damien" />
+	<foaf:knows rdf:resource="#Vende_Patrice" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#Duarte_Mariela" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Vende_Patrice" >
+	<foaf:name>Vende Patrice</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Vende</foaf:family_name>
+	<foaf:firstName>Patrice</foaf:firstName>
+	<foaf:knows rdf:resource="#Labbé_M" />
+	<foaf:knows rdf:resource="#Benmansour_Abdenour" />
+	<foaf:knows rdf:resource="#Lefèvre_François" />
+	<foaf:knows rdf:resource="#Aponte_C" />
+	<foaf:knows rdf:resource="#Boudinot_Pierre" />
+	<foaf:knows rdf:resource="#Eléouët_J F" />
+	<foaf:knows rdf:resource="#Eléouët_Jean-François" />
+	<foaf:knows rdf:resource="#Béarzotti_Monique" />
+	<foaf:knows rdf:resource="#Chapuis_J" />
+	<foaf:knows rdf:resource="#Eleouet_J F" />
+	<foaf:knows rdf:resource="#Berois_Mabel" />
+	<foaf:knows rdf:resource="#Rey_F A" />
+	<foaf:knows rdf:resource="#Petitpas_Isabelle" />
+	<foaf:knows rdf:resource="#Vilette_Didier" />
+	<foaf:knows rdf:resource="#Piron_Maria" />
+	<foaf:knows rdf:resource="#Nejmeddine_M" />
+	<foaf:knows rdf:resource="#Bremont_M" />
+	<foaf:knows rdf:resource="#Becker_Michelle M" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#Duarte_Mariela" />
+	<foaf:knows rdf:resource="#Bearzotti_M" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+	<foaf:knows rdf:resource="#Grosclaude_J" />
+	<foaf:knows rdf:resource="#Charley_Bernard" />
+	<foaf:knows rdf:resource="#Laude_Hubert" />
+	<foaf:knows rdf:resource="#Brémont_M" />
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#Vitour_Damien" />
+	<foaf:knows rdf:resource="#Patton_John T" />
+	<foaf:knows rdf:resource="#Castagné_N" />
+	<foaf:knows rdf:resource="#Péry_P" />
+	<foaf:knows rdf:resource="#Charpilienne_A" />
+	<foaf:knows rdf:resource="#Gajardo_R" />
+
+
+
+
+
+
+
+
+
+
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Brémont_M" >
+	<foaf:name>Brémont M</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Brémont</foaf:family_name>
+	<foaf:knows rdf:resource="#Vende_Patrice" />
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Patton_John T" >
+	<foaf:name>Patton John T</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Patton</foaf:family_name>
+	<foaf:firstName>John T</foaf:firstName>
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+	<foaf:knows rdf:resource="#Vende_Patrice" />
+
+
+
+
+
+
+</foaf:Person>
+
+
+
+<foaf:Person rdf:ID="Vitour_Damien" >
+	<foaf:name>Vitour Damien</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Vitour</foaf:family_name>
+	<foaf:firstName>Damien</foaf:firstName>
+	<foaf:knows rdf:resource="#Becker_Michelle M" />
+	<foaf:knows rdf:resource="#Cohen_Jean" />
+	<foaf:knows rdf:resource="#Duarte_Mariela" />
+	<foaf:knows rdf:resource="#Poncet_Didier" />
+	<foaf:knows rdf:resource="#Vende_Patrice" />
+	<foaf:knows rdf:resource="#Charpilienne_A" />
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Lavialle_Françoise" >
+	<foaf:name>Lavialle Françoise</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Lavialle</foaf:family_name>
+	<foaf:firstName>Françoise</foaf:firstName>
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#Chanat_Eric" />
+	<foaf:knows rdf:resource="#Boisgard_Raphaël" />
+
+
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Chanat_Eric" >
+	<foaf:name>Chanat Eric</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Chanat</foaf:family_name>
+	<foaf:firstName>Eric</foaf:firstName>
+	<foaf:knows rdf:resource="#Lavialle_Françoise" />
+	<foaf:knows rdf:resource="#Boisgard_Raphaël" />
+
+
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Boisgard_Raphaël" >
+	<foaf:name>Boisgard Raphaël</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Boisgard</foaf:family_name>
+	<foaf:firstName>Raphaël</foaf:firstName>
+	<foaf:img rdf:resource="img/iconBoisgard_Raphael.png"/>
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#Bercovici_Nadège" />
+	<foaf:knows rdf:resource="#Lavialle_Françoise" />
+	<foaf:knows rdf:resource="#Chanat_Eric" />
+	<foaf:knows rdf:resource="#Piron_Maria" />
+	<foaf:knows rdf:resource="#Duarte_Mariela" />
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Arrieumerlou_Cécile" >
+	<foaf:name>Arrieumerlou Cécile</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Arrieumerlou</foaf:family_name>
+	 <foaf:img  rdf:resource="img/iconArrieumerlou_Cecile.png"/>
+	<foaf:firstName>Cécile</foaf:firstName>
+	<foaf:knows rdf:resource="#Bercovici_Nadège" />
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Bercovici_Nadège" >
+	<foaf:img rdf:resource="img/iconBercovici_Nadege.png"/>
+	<foaf:name>Bercovici Nadège</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Bercovici</foaf:family_name>
+	<foaf:firstName>Nadège</foaf:firstName>
+	<foaf:knows rdf:resource="#Arrieumerlou_Cécile" />
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#Boisgard_Raphaël" />
+	<foaf:knows rdf:resource="#Abastado_Jean-Pierre" />
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Abastado_Jean-Pierre" >
+	<foaf:name>Abastado Jean-Pierre</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Abastado</foaf:family_name>
+	<foaf:firstName>Jean-Pierre</foaf:firstName>
+	<foaf:knows rdf:resource="#Bercovici_Nadège" />
+
+
+
+</foaf:Person>
+
+
+
+
+<foaf:Person rdf:ID="Tores_F" >
+	<foaf:name>Tores F</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Tores</foaf:family_name>
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#Brooks_Peter" />
+	<foaf:knows rdf:resource="#Rousseau_Francis" />
+	<foaf:knows rdf:resource="#Hager_J" />
+	<foaf:knows rdf:resource="#Philippi_Anne" />
+	<foaf:knows rdf:resource="#Vionnet_N" />
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Vionnet_N" >
+	<dc:description>Dr Nathalie VIONNET, MD, PhD, training in human genetics and endocrinology. Researcher at the INSERM with major focus on the genetics of type 2 diabetes and vascular complications of diabetes. Made significant contributions to the genetic dissection of type 2 diabetes with ~40 international publications in the field. Coordinator of a large Framework 5 integrated project (genetics of diabetic complications) of the European Union.</dc:description>
+	<foaf:name>Vionnet N</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Vionnet</foaf:family_name>
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#Tores_F" />
+	<foaf:knows rdf:resource="#Brooks_Peter" />
+	<foaf:knows rdf:resource="#Rousseau_Francis" />
+	<foaf:knows rdf:resource="#Gut_I G" />
+	<foaf:knows rdf:resource="#Matsuda_Fumihiko" />
+	<foaf:knows rdf:resource="#Takahashi_Masazumi" />
+	<foaf:knows rdf:resource="#Margetic_Nino" />
+	<foaf:knows rdf:resource="#Lathrop_Mark" />
+	<foaf:knows rdf:resource="#Foglio_M" />
+	<foaf:knows rdf:resource="#Hager_J" />
+	<foaf:knows rdf:resource="#Philippi_Anne" />
+
+
+
+
+
+
+
+</foaf:Person>
+
+<foaf:Person rdf:ID="Gesnouin_Philippe" >
+	<foaf:img rdf:resource="img/iconGesnouin_Philippe.png"/>
+	<foaf:name>Philippe Gesnouin</foaf:name>
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#Tores_F" />
+	<foaf:knows rdf:resource="#Vionnet_N" />
+	<foaf:knows rdf:resource="#Brooks_Peter" />
+	<foaf:knows rdf:resource="#Rousseau_Francis" />
+	<foaf:knows rdf:resource="#Hager_J" />
+	<foaf:knows rdf:resource="#Philippi_Anne" />
+</foaf:Person>
+
+<foaf:Person rdf:ID="Philippi_Anne" >
+	<foaf:img rdf:resource="img/iconPhilippi_Anne.png"/>
+	<foaf:name>Philippi A</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Philippi</foaf:family_name>
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#Tores_F" />
+	<foaf:knows rdf:resource="#Vionnet_N" />
+	<foaf:knows rdf:resource="#Brooks_Peter" />
+	<foaf:knows rdf:resource="#Rousseau_Francis" />
+	<foaf:knows rdf:resource="#Hager_J" />
+	<foaf:knows rdf:resource="#Gesnouin_Philippe" />
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Hager_J" >
+	<foaf:name>Hager J</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:img rdf:resource="img/iconHager_J.png"/>
+	<foaf:family_name>Hager</foaf:family_name>
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#Brooks_Peter" />
+	<foaf:knows rdf:resource="#Rousseau_Francis" />
+	<foaf:knows rdf:resource="#Gut_I G" />
+	<foaf:knows rdf:resource="#Gyapay_Gabor" />
+	<foaf:knows rdf:resource="#Matsuda_Fumihiko" />
+	<foaf:knows rdf:resource="#Takahashi_Masazumi" />
+	<foaf:knows rdf:resource="#Margetic_Nino" />
+	<foaf:knows rdf:resource="#Lathrop_Mark" />
+	<foaf:knows rdf:resource="#Foglio_M" />
+	<foaf:knows rdf:resource="#Tores_F" />
+	<foaf:knows rdf:resource="#Vionnet_N" />
+	<foaf:knows rdf:resource="#Philippi_Anne" />
+
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Foglio_M" >
+	<foaf:name>Foglio M</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Foglio</foaf:family_name>
+	<foaf:img rdf:resource="img/iconFoglio_M.png"/>
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#Hager_J" />
+	<foaf:knows rdf:resource="#Gut_I G" />
+	<foaf:knows rdf:resource="#Matsuda_Fumihiko" />
+	<foaf:knows rdf:resource="#Takahashi_Masazumi" />
+	<foaf:knows rdf:resource="#Margetic_Nino" />
+	<foaf:knows rdf:resource="#Beckmann_J S" />
+	<foaf:knows rdf:resource="#Gyapay_Gabor" />
+	<foaf:knows rdf:resource="#Lathrop_G M" />
+	<foaf:knows rdf:resource="#Caloustian_Christophe" />
+	<foaf:knows rdf:resource="#Escary_J L" />
+	<foaf:knows rdf:resource="#Lathrop_Mark" />
+	<foaf:knows rdf:resource="#Weissenbach_Jean" />
+	<foaf:knows rdf:resource="#Vionnet_N" />
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Beckmann_J S" >
+	<foaf:name>Beckmann J S</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Beckmann</foaf:family_name>
+	<foaf:firstName>J S</foaf:firstName>
+	<foaf:knows rdf:resource="#Foglio_M" />
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Lathrop_Mark" >
+	<foaf:name>Lathrop Mark</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Lathrop</foaf:family_name>
+	<foaf:firstName>Mark</foaf:firstName>
+	<foaf:knows rdf:resource="#Hager_J" />
+	<foaf:knows rdf:resource="#Foglio_M" />
+	<foaf:knows rdf:resource="#Gut_I G" />
+	<foaf:knows rdf:resource="#Escary_J L" />
+	<foaf:knows rdf:resource="#Takahashi_Masazumi" />
+	<foaf:knows rdf:resource="#Margetic_Nino" />
+	<foaf:knows rdf:resource="#Matsuda_Fumihiko" />
+	<foaf:knows rdf:resource="#Vionnet_N" />
+
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Margetic_Nino" >
+	<foaf:name>Margetic Nino</foaf:name>
+	<foaf:img rdf:resource="img/iconMargetic_Nino.png"/>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Margetic</foaf:family_name>
+	<foaf:firstName>Nino</foaf:firstName>
+	<foaf:knows rdf:resource="#Hager_J" />
+	<foaf:knows rdf:resource="#Foglio_M" />
+	<foaf:knows rdf:resource="#Lathrop_Mark" />
+	<foaf:knows rdf:resource="#Gut_I G" />
+	<foaf:knows rdf:resource="#Matsuda_Fumihiko" />
+	<foaf:knows rdf:resource="#Takahashi_Masazumi" />
+	<foaf:knows rdf:resource="#Vionnet_N" />
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Takahashi_Masazumi" >
+	<foaf:name>Takahashi Masazumi</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Takahashi</foaf:family_name>
+	<foaf:firstName>Masazumi</foaf:firstName>
+	<foaf:knows rdf:resource="#Matsuda_Fumihiko" />
+	<foaf:knows rdf:resource="#Gut_I G" />
+	<foaf:knows rdf:resource="#Hager_J" />
+	<foaf:knows rdf:resource="#Foglio_M" />
+	<foaf:knows rdf:resource="#Lathrop_Mark" />
+	<foaf:knows rdf:resource="#Margetic_Nino" />
+	<foaf:knows rdf:resource="#Vionnet_N" />
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Matsuda_Fumihiko" >
+	<foaf:name>Matsuda Fumihiko</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Matsuda</foaf:family_name>
+	<foaf:firstName>Fumihiko</foaf:firstName>
+	<foaf:knows rdf:resource="#Gut_I G" />
+	<foaf:knows rdf:resource="#Takahashi_Masazumi" />
+	<foaf:knows rdf:resource="#Hager_J" />
+	<foaf:knows rdf:resource="#Foglio_M" />
+	<foaf:knows rdf:resource="#Lathrop_Mark" />
+	<foaf:knows rdf:resource="#Margetic_Nino" />
+	<foaf:knows rdf:resource="#Vionnet_N" />
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Gyapay_Gabor" >
+	<foaf:name>Gyapay G</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Gyapay</foaf:family_name>
+	<foaf:knows rdf:resource="#Brooks_Peter" />
+	<foaf:knows rdf:resource="#Escary_J L" />
+	<foaf:knows rdf:resource="#Anthouard_Véronique" />
+	<foaf:knows rdf:resource="#Petit_Jean-Louis" />
+	<foaf:knows rdf:resource="#Weissenbach_Jean" />
+	<foaf:knows rdf:resource="#Scarpelli_Claude" />
+	<foaf:knows rdf:resource="#Saurin_William" />
+	<foaf:knows rdf:resource="#Hager_J" />
+	<foaf:knows rdf:resource="#Foglio_M" />
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Anthouard_Véronique" >
+	<foaf:name>Anthouard Véronique</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Anthouard</foaf:family_name>
+	<foaf:firstName>Véronique</foaf:firstName>
+	<foaf:knows rdf:resource="#Gyapay_Gabor" />
+	<foaf:knows rdf:resource="#Weissenbach_Jean" />
+	<foaf:knows rdf:resource="#Saurin_William" />
+	<foaf:knows rdf:resource="#Petit_Jean-Louis" />
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Saurin_William" >
+	<foaf:name>Saurin William</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Saurin</foaf:family_name>
+	<foaf:firstName>William</foaf:firstName>
+	<foaf:knows rdf:resource="#Weissenbach_Jean" />
+	<foaf:knows rdf:resource="#Gyapay_Gabor" />
+	<foaf:knows rdf:resource="#Scarpelli_Claude" />
+	<foaf:knows rdf:resource="#Petit_Jean-Louis" />
+	<foaf:knows rdf:resource="#Demange_N" />
+	<foaf:knows rdf:resource="#Anthouard_Véronique" />
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Petit_Jean-Louis" >
+	<foaf:name>Petit Jean-Louis</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Petit</foaf:family_name>
+	<foaf:firstName>Jean-Louis</foaf:firstName>
+	<foaf:knows rdf:resource="#Gyapay_Gabor" />
+	<foaf:knows rdf:resource="#Saurin_William" />
+	<foaf:knows rdf:resource="#Scarpelli_Claude" />
+	<foaf:knows rdf:resource="#Anthouard_Véronique" />
+
+
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Scarpelli_Claude" >
+	<foaf:name>Scarpelli Claude</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Scarpelli</foaf:family_name>
+	<foaf:firstName>Claude</foaf:firstName>
+	<foaf:knows rdf:resource="#Gyapay_Gabor" />
+	<foaf:knows rdf:resource="#Saurin_William" />
+	<foaf:knows rdf:resource="#Petit_Jean-Louis" />
+	<foaf:knows rdf:resource="#Weissenbach_Jean" />
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Weissenbach_Jean" >
+	<foaf:name>Weissenbach J</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Weissenbach</foaf:family_name>
+	<foaf:knows rdf:resource="#Gyapay_Gabor" />
+	<foaf:knows rdf:resource="#Saurin_William" />
+	<foaf:knows rdf:resource="#Scarpelli_Claude" />
+	<foaf:knows rdf:resource="#Foglio_M" />
+	<foaf:knows rdf:resource="#Demange_N" />
+	<foaf:knows rdf:resource="#Escary_J L" />
+	<foaf:knows rdf:resource="#Anthouard_Véronique" />
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Lathrop_G M" >
+	<foaf:name>Lathrop G M</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Lathrop</foaf:family_name>
+	<foaf:firstName>G M</foaf:firstName>
+	<foaf:knows rdf:resource="#Lechner_Doris" />
+	<foaf:knows rdf:resource="#Gut_I G" />
+	<foaf:knows rdf:resource="#Foglio_M" />
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Caloustian_Christophe" >
+	<foaf:name>Caloustian C</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Caloustian</foaf:family_name>
+	<foaf:knows rdf:resource="#Lechner_Doris" />
+	<foaf:knows rdf:resource="#Foglio_M" />
+	<foaf:knows rdf:resource="#Gut_I G" />
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Escary_J L" >
+	<foaf:name>Escary J L</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Escary</foaf:family_name>
+	<foaf:firstName>J L</foaf:firstName>
+	<foaf:knows rdf:resource="#Gyapay_Gabor" />
+	<foaf:knows rdf:resource="#Foglio_M" />
+	<foaf:knows rdf:resource="#Lathrop_Mark" />
+	<foaf:knows rdf:resource="#Gut_I G" />
+	<foaf:knows rdf:resource="#Lechner_Doris" />
+	<foaf:knows rdf:resource="#Sauer_Sascha" />
+	<foaf:knows rdf:resource="#Weissenbach_Jean" />
+	<foaf:knows rdf:resource="#Rousseau_Francis" />
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Gut_I G" >
+	<foaf:name>Gut I G</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Gut</foaf:family_name>
+	<foaf:firstName>I G</foaf:firstName>
+	<foaf:img rdf:resource="img/iconGutIG.png"/>
+	<foaf:knows rdf:resource="#Matsuda_Fumihiko" />
+	<foaf:knows rdf:resource="#Takahashi_Masazumi" />
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#Lathrop_G M" />
+	<foaf:knows rdf:resource="#Hager_J" />
+	<foaf:knows rdf:resource="#Foglio_M" />
+	<foaf:knows rdf:resource="#Lathrop_Mark" />
+	<foaf:knows rdf:resource="#Lechner_Doris" />
+	<foaf:knows rdf:resource="#Caloustian_Christophe" />
+	<foaf:knows rdf:resource="#Boussicault_Francis" />
+	<foaf:knows rdf:resource="#Sauer_Sascha" />
+	<foaf:knows rdf:resource="#Tost_Jörg" />
+	<foaf:knows rdf:resource="#Escary_J L" />
+	<foaf:knows rdf:resource="#Margetic_Nino" />
+	<foaf:knows rdf:resource="#Vionnet_N" />
+</foaf:Person>
+
+
+<foaf:Person rdf:ID="Boussicault_Francis" >
+	<foaf:img rdf:resource="img/iconBoussicault_Francis.png"/>
+	<foaf:name>Boussicault Francis</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Boussicault</foaf:family_name>
+	<foaf:firstName>Francis</foaf:firstName>
+	<foaf:knows rdf:resource="#Lechner_Doris" />
+	<foaf:knows rdf:resource="#Sauer_Sascha" />
+	<foaf:knows rdf:resource="#Gut_I G" />
+</foaf:Person>
+
+<foaf:Person rdf:ID="Tost_Jörg" >
+	<foaf:name>Tost Jörg</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Tost</foaf:family_name>
+	<foaf:firstName>Jörg</foaf:firstName>
+	<foaf:knows rdf:resource="#Lechner_Doris" />
+	<foaf:knows rdf:resource="#Sauer_Sascha" />
+	<foaf:knows rdf:resource="#Gut_I G" />
+</foaf:Person>
+
+<foaf:Person rdf:ID="Lechner_Doris" >
+	<foaf:name>Lechner D</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:img rdf:resource="img/iconLechner_Doris.png"/>
+	<foaf:family_name>Lechner</foaf:family_name>
+	<foaf:knows rdf:resource="#Sauer_Sascha" />
+	<foaf:knows rdf:resource="#Caloustian_Christophe" />
+	<foaf:knows rdf:resource="#Boussicault_Francis" />
+	<foaf:knows rdf:resource="#Tost_Jörg" />
+	<foaf:knows rdf:resource="#Lathrop_G M" />
+	<foaf:knows rdf:resource="#Gut_I G" />
+	<foaf:knows rdf:resource="#Escary_J L" />
+</foaf:Person>
+
+<foaf:Person rdf:ID="Besse_C" >
+	<foaf:img rdf:resource="img/iconBesse_C.png"/>
+	<foaf:name>Besse Celine</foaf:name>
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#Lechner_Doris" />
+</foaf:Person>
+
+<foaf:Person rdf:ID="Sauer_Sascha" >
+	<foaf:name>Sauer S</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Sauer</foaf:family_name>
+	<foaf:knows rdf:resource="#Lechner_Doris" />
+	<foaf:knows rdf:resource="#Boussicault_Francis" />
+	<foaf:knows rdf:resource="#Tost_Jörg" />
+	<foaf:knows rdf:resource="#Gut_I G" />
+	<foaf:knows rdf:resource="#Escary_J L" />
+</foaf:Person>
+
+<foaf:Person rdf:ID="Rousseau_Francis" >
+	<foaf:img rdf:resource="img/iconRousseau_Francis.png"/>
+	<foaf:name>Rousseau Francis</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Rousseau</foaf:family_name>
+	<foaf:firstName>Francis</foaf:firstName>
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#Hager_J" />
+	<foaf:knows rdf:resource="#Tores_F" />
+	<foaf:knows rdf:resource="#Escary_J L" />
+	<foaf:knows rdf:resource="#Vionnet_N" />
+	<foaf:knows rdf:resource="#Philippi_Anne" />
+	<foaf:knows rdf:resource="#Brooks_Peter" />
+</foaf:Person>
+
+<foaf:Person rdf:ID="Demange_N" >
+	<foaf:name>Demange N</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Demange</foaf:family_name>
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#Weissenbach_Jean" />
+	<foaf:knows rdf:resource="#Saurin_William" />
+</foaf:Person>
+
+<foaf:Person rdf:ID="Brooks_Peter" >
+	<foaf:img rdf:resource="img/iconBrooks_Peter.png"/>
+	
+	
+	<foaf:name>Brooks P</foaf:name>
+	<foaf:title>Dr</foaf:title>
+	<foaf:family_name>Brooks</foaf:family_name>
+	<foaf:knows rdf:resource="#Gyapay_Gabor" />
+	<foaf:knows rdf:resource="#LindenbaumPierre" />
+	<foaf:knows rdf:resource="#Hager_J" />
+	<foaf:knows rdf:resource="#Tores_F" />
+	<foaf:knows rdf:resource="#Vionnet_N" />
+	<foaf:knows rdf:resource="#Philippi_Anne" />
+	<foaf:knows rdf:resource="#Rousseau_Francis" />
+</foaf:Person>
+
+
+
+
+
+<foaf:Document rdf:about="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=16027742">
+	<dc:author rdf:resource="#LindenbaumPierre" />
+	<dc:title>Haplotypes in the gene encoding protein kinase c-beta (PRKCB1) on chromosome 16 are associated with autism.</dc:title><dc:description><![CDATA[<p><b>Mol Psychiatry</b> <b>10</b> (10):
+        
+                        2005
+                        Oct
+                     
+        p. 
+                950-60
+            </p><p style="font-size:12pt; color:black;"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?term=Philippi A[AU]">A Philippi</a>, <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?term=Roschmann E[AU]">E Roschmann</a>, <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?term=Tores F[AU]">F Tores</a>, <a href="#LindenbaumPierre">P Lindenbaum</a>, <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?term=Benajou A[AU]">A Benajou</a>, <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?term=Germain-Leclerc L[AU]">L Germain-Leclerc</a>, <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?term=Marcaillou C[AU]">C Marcaillou</a>, <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?term=Fontaine K[AU]">K Fontaine</a>, <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?term=Vanpeene M[AU]">M Vanpeene</a>, <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?term=Roy S[AU]">S Roy</a>, <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?term=Maillard S[AU]">S Maillard</a>, <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?term=Decaulne V[AU]">V Decaulne</a>, <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?term=Saraiva J P[AU]">J P Saraiva</a>, <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?term=Brooks P[AU]">P Brooks</a>, <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?term=Rousseau F[AU]">F Rousseau</a> and  <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?term=Hager J[AU]">J Hager</a></p><p style="font-size:24pt; color:blue;">Haplotypes in the gene encoding protein kinase c-beta (PRKCB1) on chromosome 16 are associated with autism.</p><div>PMID:16027742</div><div><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&amp;from_uid=16027742">
+Related Articles
+</a></div><p style="font-size:12pt; color:black;">
+                Autism is a developmental disorder characterized by impairments in social interaction and communication associated with repetitive patterns of interest or behavior. Autism is highly influenced by genetic factors. Genome-wide linkage and candidate gene association approaches have been used to try and identify autism genes. A few loci have repeatedly been reported linked to autism. Several groups reported evidence for linkage to a region on chromosome 16p. We have applied a direct physical identity-by-descent (IBD) mapping approach to perform a high-density (0.85 megabases) genome-wide linkage scan in 116 families from the AGRE collection. Our results confirm linkage to a region on chromosome 16p with autism. High-resolution single-nucleotide polymorphism (SNP) genotyping and analysis of this region show that haplotypes in the protein kinase c-beta gene are strongly associated with autism. An independent replication of the association in a second set of 167 trio families with autism confirmed our initial findings. Overall, our data provide evidence that the PRKCB1 gene on chromosome 16p may be involved in the etiology of autism.
+            </p>]]></dc:description></foaf:Document>
+
+
+<foaf:Document  rdf:about="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=15047801">
+<dc:title>RoXaN, a novel cellular protein containing TPR, LD, and zinc finger motifs, forms a ternary complex with eukaryotic initiation factor 4G and rotavirus NSP3.</dc:title>
+<dc:description><![CDATA[<p><b>J Virol</b> <b>78</b> (8):
+        
+                        2004
+                        Apr
+                     
+        p. 
+                3851-62
+            </p><p style="font-size:12pt; color:black;"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?term=Vitour Damien[AU]">Damien Vitour</a>, <a href="#LindenbaumPierre">Pierre Lindenbaum</a>, <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?term=Vende Patrice[AU]">Patrice Vende</a>, <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?term=Becker Michelle M[AU]">Michelle M Becker</a> and  <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?term=Poncet Didier[AU]">Didier Poncet</a></p><p style="font-size:24pt; color:blue;">RoXaN, a novel cellular protein containing TPR, LD, and zinc finger motifs, forms a ternary complex with eukaryotic initiation factor 4G and rotavirus NSP3.</p><div>PMID:15047801</div><div><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&amp;from_uid=15047801">
+Related Articles
+</a></div><p style="font-size:12pt; color:black;">
+                Rotavirus mRNAs are capped but not polyadenylated, and viral proteins are translated by the cellular translation machinery. This is accomplished through the action of the viral nonstructural protein NSP3, which specifically binds the 3' consensus sequence of viral mRNAs and interacts with the eukaryotic translation initiation factor eIF4G I. To further our understanding of the role of NSP3 in rotavirus replication, we looked for other cellular proteins capable of interacting with this viral protein. Using the yeast two-hybrid assay, we identified a novel cellular protein-binding partner for rotavirus NSP3. This 110-kDa cellular protein, named RoXaN (rotavirus X protein associated with NSP3), contains a minimum of three regions predicted to be involved in protein-protein or nucleic acid-protein interactions. A tetratricopeptide repeat region, a protein-protein interaction domain most often found in multiprotein complexes, is present in the amino-terminal region. In the carboxy terminus, at least five zinc finger motifs are observed, further suggesting the capacity of RoXaN to bind other proteins or nucleic acids. Between these two regions exists a paxillin leucine-aspartate repeat (LD) motif which is involved in protein-protein interactions. RoXaN is capable of interacting with NSP3 in vivo and during rotavirus infection. Domains of interaction were mapped and correspond to the dimerization domain of NSP3 (amino acids 163 to 237) and the LD domain of RoXaN (amino acids 244 to 341). The interaction between NSP3 and RoXaN does not impair the interaction between NSP3 and eIF4G I, and a ternary complex made of NSP3, RoXaN, and eIF4G I can be detected in rotavirus-infected cells, implicating RoXaN in translation regulation.
+            </p>]]></dc:description></foaf:Document>
+
+
+<foaf:Document rdf:about="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=9682060">
+<dc:title>CloneIt: finding cloning strategies, in-frame deletions and frameshifts.</dc:title>
+<dc:description><![CDATA[<p><b>Bioinformatics</b> <b>14</b> (5):
+        
+                        1998
+                        Jun
+                     
+        p. 
+                465-6
+            </p><p style="font-size:12pt; color:black;"><a href="#LindenbaumPierre">P Lindenbaum</a></p><p style="font-size:24pt; color:blue;">CloneIt: finding cloning strategies, in-frame deletions and frameshifts.</p><div>PMID:9682060</div><div><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&amp;from_uid=9682060">
+Related Articles
+</a></div><p style="font-size:12pt; color:black;">
+                MOTIVATION: The CloneIt program searches for sub-cloning strategies, in-frame deletions and frameshifts within a plasmid sequence. AVAILABILITY: The program, written in ANSI-C language, is available at http://locus.jouy.inra.fr/soft/cloneit/clonei t.html CONTACT: lindenb@biotec.jouy.inra.fr
+            </p>]]></dc:description></foaf:Document>
+
+
+<foaf:Document  rdf:about="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=8985320">
+<dc:title>In vivo and in vitro phosphorylation of rotavirus NSP5 correlates with its localization in viroplasms.</dc:title>
+<dc:description><![CDATA[<p><b>J Virol</b> <b>71</b> (1):1997 Jan p. 34-41
+            </p><p style="font-size:12pt; color:black;"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?term=Poncet D[AU]">D Poncet</a>, <a href="#LindenbaumPierre">P Lindenbaum</a>, <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?term=L'Haridon R[AU]">R L'Haridon</a> and  <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?term=Cohen J[AU]">J Cohen</a></p><p style="font-size:24pt; color:blue;">In vivo and in vitro phosphorylation of rotavirus NSP5 correlates with its localization in viroplasms.</p><div>PMID:8985320</div><div><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&amp;from_uid=8985320">
+Related Articles
+</a></div><p style="font-size:12pt; color:black;">
+                NSP5 (NS26), the product of rotavirus gene 11, is a phosphoprotein whose role in the virus replication cycle is unknown. To gain further insight into its function, we obtained monoclonal antibodies against the baculovirus-expressed protein. By immunoprecipitation and immunoblotting experiments, we showed that (i) NSP5 appears in many different phosphorylated forms in rotavirus-infected cells; (ii) immunoprecipitated NSP5 from rotavirus-infected cells can be phosphorylated in vitro by incubation with ATP; (iii) NSP5, produced either by transient transfection of rotavirus gene 11 or by infection by gene 11 recombinant vaccinia virus or baculovirus, can be phosphorylated in vivo and in vitro; (iv) NSP5 expressed in Escherichia coli is phosphorylated in vitro, and thus NSP5 is a potential protein kinase; and (v) NSP5 forms dimers and interacts with NSP2. The intracellular localization of NSP5 in the course of rotavirus infection and after transient expression in COS7 cells has also been investigated. In rotavirus-infected cells, NSP5 is localized in viroplasms, but it is widespread throughout the cytoplasm of transfected COS7 cells. NSP5 produced by transfected COS7 cells did not acquire the multiphosphorylated forms observed in rotavirus-infected COS7 cells. Thus, there is a tight correlation between the localization of NSP5 in the viroplasms and its protein kinase activity in vivo or in vitro. Our results suggest that cellular or viral cofactors are indispensable to fully phosphorylate NSP5 and to reach its intracellular localization.
+            </p>]]></dc:description></foaf:Document>
+
+
+
+</rdf:RDF>
