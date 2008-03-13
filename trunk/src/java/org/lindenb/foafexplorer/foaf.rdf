@@ -20,8 +20,8 @@ xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
 	<foaf:givenname>Pierre</foaf:givenname>
 	<foaf:family_name>Lindenbaum</foaf:family_name>
 	<foaf:nick>Pierrot</foaf:nick>
-	<foaf:mbox>lindenb@integragen.com</foaf:mbox>
-	<foaf:homepage rdf:resource="http://www.integragen.com/"/>
+	<foaf:mbox>plindenbaum@yahoo.fr</foaf:mbox>
+	<foaf:homepage rdf:resource="http://plindenbaum.blogspot.com/"/>
 	<foaf:img rdf:resource="img/iconLindenbaumPierre.png"/>
 	<foaf:birthday>08-02</foaf:birthday>
 	<lang:masters>fr</lang:masters>

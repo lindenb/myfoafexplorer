@@ -1,6 +1,6 @@
 /*
  * Author: Pierre Lindenbaum PhD
- * Contact: lindenb@integragen.com
+ * Contact: plindenbaum@yahoo.fr
  * Created on 12:22:13 PM
  * 
  * For condition of distribution and use, see the accompanying README file.
