@@ -1,0 +1,14 @@
+This was one of the very first sophisticated swing based tool I ever 
+wrote more than two years ago. Also , I didn't know much about 
+rdf+xml/foaf at this time.
+
+Here are the things I would do:
+
+* use StaX instead of DOM to parse RDF
+* better RDF/FOAF compliance
+* cache for pictures
+* integrate the also-old scifoaf (fetch pubmed articles and ) save rdf
+* change Namespaces.RDF,Namespaces.FOAF  to RDF.NS, FOAF.NS, etc...
+
+Pierre
+
