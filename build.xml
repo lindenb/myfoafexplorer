@@ -5,7 +5,7 @@
 
 
  
- <target name="all" depends="foafexplorer,foafexplorerapplet">
+ <target name="all" depends="foafexplorer,foafexplorerapplet,scifoaf">
  </target>
 
 
@@ -59,5 +59,34 @@
 	 </jar>
 	 <delete dir="build/compile"/>
  </target>
+ 
+ <target name="scifoaf">
+	 <mkdir dir="build/compile"/>
+	 
+	 <copy todir="build/compile" includeEmptyDirs="false">
+		 <fileset dir="src/java"/>
+	 </copy>
+	 
+	 <javac srcdir="build/compile"
+		destdir="build/compile"
+		source="1.6"
+		target="1.6"
+		optimize="off"
+		>
+		 <include name="**/scifoaf/SciFOAF.java"/>
+	 </javac>
+	 
+	 <delete includeEmptyDirs="true">
+		 <fileset dir="build/compile" includes="**/*.java"/>
+	 </delete>
+	 <jar destfile="build/scifoaf.jar"
+	      basedir="build/compile">
+		 <manifest>
+			 <attribute name="Main-Class" value="org.lindenb.scifoaf.SciFOAF"/>
+		 </manifest>
+	 </jar>
+	 <delete dir="build/compile"/>
+ </target>
+ 
  
 </project>

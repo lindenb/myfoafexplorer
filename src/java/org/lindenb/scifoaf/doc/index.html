@@ -1,0 +1,127 @@
+<html>
+<head>
+<meta name="description" content="" />
+<meta name="author" content="Pierre Lindenbaum" />
+<link rel="Shortcut icon" href="http://www.foaf-project.org/favicon.ico" type="image/x-icon" />
+<link rel="meta" type="application/rdf+xml" title="FOAF" href="foaf.xml" />
+<title>SciFOAF</title>
+</head>
+<body>
+<h1>SciFOAF</h1>
+<p>&copy; Pierre Lindenbaum 2005<br/>
+
+<div style="background-color:lightgray;text-align:center;">
+<br/>
+<a href="scifoaf.jnlp"><span style="font-size:34pt;">Run SciFoaf</span></a><br/>
+Requires <a href="http://java.sun.com/j2se/1.5.0/docs/guide/javaws/index.html">JAVA Webstart 1.4</a><br/>
+<br/>
+Or use the following command line: <code>javaws http://www.urbigene.com/foaf/scifoaf.jnlp</code><br/><br/>
+
+</div>
+
+<hr/>
+<h3>What is FOAF and how can I use it ?</h3>
+	<p>The  <a href="http://www.foaf-project.org/"> FOAF project</a> defines a semantic format based on RDF/XML to define persons or groups, their relationships, as well as their basic properties such as name, e-mail address, subjects of interest, publication, and so on...</p>
+<h3>What is SciFOAF ?</h3>
+	<p>SciFOAF is an interface used to generate a FOAF file using <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi">NCBI Pubmed</a>.
+	
+	
+	 
+
+ 	The PubMed  bibliographic database is a powerful source to discover 
+ 	collaboration networks as each paper submitted contains potential 
+ 	information about each author.
+	An interface called SciFOAF (Scientific FOAF) was written to generate a FOAF
+	file from the literature found in PubMed. It is initialized with a PubMed identifier (PMID)
+	that is used as a seed to start browsing a collaboration network and 
+	the user is asked to select the authors of this paper that will appear in 
+	the FOAF file. Authors are stored in a &apos;stack&apos; and the user
+	interaction will be required until this stack is empty.
+	For each person in the stack complementary information
+	(such as e-mail, web site...) can be fulfilled and his latest publications
+	are fetched from NCBI using the NCBI E-Utilities tool.
+	Then, for each article the user is asked if the current person is
+	unambiguously one of the authors and whether he knows any of the co-authors
+	(which may not be necessarily the case when there is a large number of 
+	collaborators) and each of these new co-author is added on top of the stack.
+	Laboratories addresses are extracted from the articles and the user can
+	select among this list to affiliate the current author to one or more
+	laboratory. The user can also link the current author with a person already
+	depicted if they know each other but did not take part in a common publication.
+	Author’s interests are defined using the MESH terms of their papers.
+	Once all information about the current author have been fulfilled
+	he is removed from the stack and at the end, the user can save its
+	FOAF file as a XML/RDF file.
+
+	This process could have been generated automatically by a recursive program
+	without human intervention if there was not ambiguity between authors names
+	and if the addresses of the laboratories were always written the same way
+	but this is unfortunately not the case: the same address of a laboratory
+	can be written differently from one paper to another and there is no unique
+	identifier that could be used to discriminate two homonymous authors within
+	the XML description of papers. Moreover, authors’ name definition may vary
+	from one journal to another as some journal may use the initial of an
+	author while another may use the complete first name.
+	Furthermore the NCBI E-Search utility just uses the family name and the
+	initial so homonymous authors may be fetched with the same query.
+	In consequence SciFOAF requests  the user to confirm/infirm the
+	relationships between authors and their publications.	
+	</p>
+<h3>An example</h3>
+    <p>An sample of the output is available here <a href="foaf.xml">foaf.xml</a>. It was created at the time where I did not handled &apos;accent&apos;.
+    Note that it also contains names duplicated because sometimes, the same name may be written in two different way.</p>
+<h3>How to use SciFOAF ?</h3>
+	
+	<div align="center; font-size:24pt;">
+	<p>Start your network description by a <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi">NCBI Pubmed</a> ID (PMID).
+	e.g. <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=pubmed&dopt=Abstract&list_uids=15047801">15047801</a>.</p>
+	<img src="foaf1.jpeg" />
+	
+
+	<p>Select people you know and you want to include in your network</p>
+	<img src="foaf2.jpeg" />
+
+	<p>For each selected author, complete its personal information (mail, web page...) and select his affiliated laboratories</p>
+	<img src="foaf4.jpeg" />
+
+	<p>For each paper, check if the paper was written by the current author.
+	When you're done with this author click on the &apos;NEXT&apos; button at the bottom of the scrollable page</p>
+	<img src="foaf3.jpeg" />
+
+	<p>When your done (there is no more author on the stack), click on the &apos;Save &apos; button to export the RDF/XML describing the network</p>
+	<img src="foaf5.jpeg" />
+	
+	</div>
+
+	
+<h3>How to cite SciFOAF ?</h3>
+	<p>SciFOAF: Pierre Lindenbaum 2006.</p>
+
+<h3>References</h3>
+<ul>
+<li>Bachrach,C.A. and Charen,T. (1978) Selection of MEDLINE contents, the development of its thesaurus, and the indexing process. Medical Informatics (London), 3,237-254.</li>
+<li>Bohne-Lang,A., Lang,E. (2005) Do we need a Unique Scientist ID for publications in biomedicine? Biomed Digit Libr., Mar 22;2(1):1.</li>
+<li>Newman,M.E. (2001) The structure of scientific collaboration networks. Proc. Natl. Acad. Sci. USA., 98,404-409.</li>
+<li>Ding,L., Zhou L., Finin T. and Joshi A. (2005) How the Semantic Web is Being Used: An Analysis of FOAF Documents. Proceedings of the 38th International Conference on System Sciences.</li>
+<li>Wheeler,D.L., Barrett,T., Benson,D.A., Bryant,S.H., Canese,K., Church,D.M., DiCuccio,M., Edgar,R., Federhen,S., Helmberg,W., Kenton,D.L., Khovayko,O., Lipman,D.J., Madden,T.L., Maglott,D.R., Ostell,J., Pontius,J.U., Pruitt,K.D., Schuler,G.D., Schriml,L.M., Sequeira,E., Sherry,S.T., Sirotkin,K., Starchenko,G., Suzek,T.O., Tatusov,R., Tatusova,A., Wagner,L., Yaschenko,E. (2005). Database resources of the National Center for Biotechnology Information. Nucleic Acids Res., 33, 39-45.</li>
+</ul>
+
+<h3>Links</h3>
+<ul>
+	<li><a href="http://www.foaf-project.org/">http://www.foaf-project.org</a></li>
+	<li><a href="http://xml.mfd-consult.dk/foaf/explorer/">FOAF explorer</a></li>
+	<li><a href="http://www.foafnaut.org/">FOAFnaut</a></li>
+	<li><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi">NCBI Pubmed</a></li>
+	<li><a href="http://www.linkedin.com/">http://www.linkedin.com/</a></li>
+	<li><a href="http://www.openbc.com/">http://www.openbc.com/</a></li>
+	<li><a href="http://www.yebn.org/">Young European Biotech Netwok</a></li>
+</ul>
+
+
+<hr/>
+<adress>
+Pierre Lindenbaum PhD<br/>
+<a href="mailto:plindenbaum@yahoo.fr">plindenbaum@yahoo.fr</a><br/>
+</adress>
+</body>
+</html>
