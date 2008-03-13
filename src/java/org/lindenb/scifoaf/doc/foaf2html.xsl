@@ -126,24 +126,15 @@ select="@rdf:resource"/></xsl:attribute><xsl:value-of select="@rdf:resource"/></
 	<a href="http://xml.mfd-consult.dk/foaf/explorer/">FOAF explorer</a> -
 	<a href="http://www.foafnaut.org/">FOAFnaut</a> -
 	<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi">NCBI Pubmed</a> -
-	<a href="http://www.integragen.com">Integragen</a> - 
-	<a href="http://www.linkedin.com/">http://www.linkedin.com/</a> -
-	<a href="http://www.openbc.com/">http://www.openbc.com/</a> -
-	<a href="http://www.yebn.org/">Young European Biotech Netwok</a>
 
 
 
 <hr/>
 <adress>
 Pierre Lindenbaum PhD<br/>
-<a href="mailto:NOSPAM_lindenb@integragen.com">lindenb@integragen.com</a><br/>
-<a href="http://www.integragen.com">Integragen</a><br/>
-4, rue Pierre Fontaine.
-91000 EVRY.
+plindenbaum@yahoo.fr<br/>
 </adress>
 </div>
-<div align="center"><a href="http://www.integragen.com"><img src="http://www.integragen.com/img//title.png" 
-border="1" /></a></div>
 </body>
 </html>
 </xsl:template>

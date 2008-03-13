@@ -130,10 +130,7 @@
 <xsl:template name="pubmed-anchor-query">
 <xsl:param name="content" />
 <xsl:param name="term" />
-<xsl:element name='a'>
-<xsl:attribute name='href'>http://www.integragen.com/scifoaf?addAuthor=<xsl:value-of select="normalize-space($term)" /></xsl:attribute>
 <xsl:value-of select="$content" />
-</xsl:element>
 </xsl:template>
 
 <!-- =================================================================== -->

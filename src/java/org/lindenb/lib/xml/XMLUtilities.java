@@ -39,7 +39,7 @@ $Log: $
 *************************************************************************/
 /*
  * Author: Pierre Lindenbaum PhD
- * Contact: lindenb@integragen.com
+ * Contact: plindenbaum@yahoo.fr
  * Created on Jan 4, 2005
  * 
  * For condition of distribution and use, see the accompanying README file.

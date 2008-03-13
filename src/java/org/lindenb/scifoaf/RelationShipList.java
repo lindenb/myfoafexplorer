@@ -18,7 +18,6 @@ package org.lindenb.scifoaf;
 import java.util.HashSet;
 import java.util.Iterator;
 
-//import com.integragen.www.util.Debug;
 
 
 /**
